@@ -10,6 +10,7 @@ public class Movement : MonoBehaviour
     private Vector3 targetPosition;
 
     private bool moving = false;
+    private bool hittingBuilding = false;
 
     // Update is called once per frame
     void Update()
