@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - wrench_Button
+  - knife_Button
+  - Phone_Button
   layers:
   - Default
   - TransparentFX
