@@ -1070,7 +1070,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &743278378
 MonoBehaviour:
@@ -1505,6 +1505,7 @@ GameObject:
   - component: {fileID: 1661374326}
   - component: {fileID: 1661374325}
   - component: {fileID: 1661374328}
+  - component: {fileID: 1745203880}
   m_Layer: 5
   m_Name: Choice_1
   m_TagString: Untagged
@@ -1613,14 +1614,6 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 --- !u!114 &1661374328
 MonoBehaviour:
---- !u!1 &1745203879 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8888316098350280507, guid: cfcecf97886b841458bcd0908db33462,
-    type: 3}
-  m_PrefabInstance: {fileID: 8290195278915067904}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1745203880
-BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1631,9 +1624,15 @@ BoxCollider2D:
   m_Script: {fileID: 11500000, guid: 43afefa19de3ac8409eac17e10650098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checker: {fileID: 1661374325}
-  c: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
-  m_GameObject: {fileID: 1745203879}
+  checker: {fileID: 0}
+  c: {r: 1, g: 0, b: 0, a: 1}
+--- !u!61 &1745203880
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661374323}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -1833,7 +1832,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2011376682
 MonoBehaviour:
