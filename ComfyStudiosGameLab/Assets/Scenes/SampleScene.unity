@@ -596,6 +596,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: knife (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6748909253655836723, guid: 9295853674d39c44d8ece385ebec0788,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6748909253655836735, guid: 9295853674d39c44d8ece385ebec0788,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1624,8 +1629,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43afefa19de3ac8409eac17e10650098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checker: {fileID: 0}
-  c: {r: 1, g: 0, b: 0, a: 1}
+  checker: {fileID: 1661374325}
+  IncorColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!61 &1745203880
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1879,6 +1884,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: knife (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6748909253655836723, guid: 9295853674d39c44d8ece385ebec0788,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6748909253655836735, guid: 9295853674d39c44d8ece385ebec0788,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2086,6 +2096,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748909253655836723, guid: 9295853674d39c44d8ece385ebec0788,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6748909253655836735, guid: 9295853674d39c44d8ece385ebec0788,
         type: 3}

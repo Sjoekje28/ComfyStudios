@@ -6,10 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class randomFlashbackGen : MonoBehaviour
 {
-    int fbCheck;
     public Button checker;
     GameObject objRef;
-    public Color c = Color.red;
+    public Color IncorColor = Color.red;
     void Start()
     {
         checker = GetComponent<Button>();
@@ -17,23 +16,10 @@ public class randomFlashbackGen : MonoBehaviour
     }
     public void fbChecker()
     {
-        
-        fbCheck = Random.Range(0, 4);
-        if (fbCheck == 0)
-        {
-
-            Debug.Log("Flashback Happens");
-            //SceneManager.LoadScene("Flashback_Wrench");
-        }
-        else
-        {
-            Debug.Log("Color is changed");
-            objRef = GameObject.Find("wrench_button(Clone)");
-            objRef.GetComponent<Image>().color = c;
-            //objRef = GameObject.Find("knife_button(Clone)");
-            //objRef.GetComponent<Image>().color = c;
-            //objRef = GameObject.Find("Phone_Button(Clone)");
-            //Debug.Log("The gameobject is " + objRef);
-        }
+        objRef = GameObject.FindGameObjectWithTag("Incorrect");
+        Debug.Log("The incorrect Gameobject is" + objRef);
+        objRef.GetComponent<Image>().color = IncorColor;
+        //objRef = GameObject.FindGameObjectWithTag("Correct");
+        //Debug.Log("The correct gameobject is" + objRef);
     }
 }

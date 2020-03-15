@@ -4,9 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - wrench_Button
-  - knife_Button
-  - Phone_Button
+  - Correct
+  - Incorrect
   layers:
   - Default
   - TransparentFX
