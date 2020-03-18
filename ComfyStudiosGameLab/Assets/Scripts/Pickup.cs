@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Pickup : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Pickup : MonoBehaviour
     public GameObject popup;
     public Button choice1;
     public Button choice2;
+    public Color incorColor = Color.red;
 
     private void Start()
     {
@@ -17,6 +19,7 @@ public class Pickup : MonoBehaviour
         choice1.GetComponent<Button>();
 
     }
+
     public void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
@@ -34,7 +37,11 @@ public class Pickup : MonoBehaviour
             if (inventory.slotsFull[i] == false)
             {
                 inventory.slotsFull[i] = true;
-                Instantiate(itemButton, inventory.slots[i].transform, false);
+                GameObject taggedObjs = Instantiate(itemButton, inventory.slots[i].transform, false);
+                if (taggedObjs.tag == "Incorrect")
+                    taggedObjs.GetComponent<Image>().color = incorColor;
+                else if (taggedObjs.tag == "Correct")
+                    SceneManager.LoadScene("Flashback_knife");
                 Destroy(gameObject);
                 break;
             }
