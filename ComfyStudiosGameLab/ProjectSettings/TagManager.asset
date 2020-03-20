@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Correct
   - Incorrect
+  - Objects
   layers:
   - Default
   - TransparentFX
