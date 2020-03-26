@@ -25,7 +25,6 @@ public class checkCollision : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-
         if (other.CompareTag("Player") && other.transform.position.y > (objSize.y / 3.33f))
         {
             Debug.Log("Player has entered the trigger");
