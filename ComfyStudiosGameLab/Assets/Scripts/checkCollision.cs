@@ -6,8 +6,6 @@ public class checkCollision : MonoBehaviour
 {
     Renderer objCollider;
     Vector3 objSize;
-    //public Shader baseShader;
-    //public Shader fadeShader;
     public Color newColor;
     public Color oldColor = new Color(1f, 1f, 1f, 1f);
 
@@ -37,7 +35,7 @@ public class checkCollision : MonoBehaviour
 
         }
 
-        //else
+        else
             //Physics.IgnoreCollision(other.GetComponent<Collider2D>(), this.GetComponent<Collider2D>, false);
     }
 
