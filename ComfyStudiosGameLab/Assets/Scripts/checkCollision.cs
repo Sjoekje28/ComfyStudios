@@ -35,7 +35,7 @@ public class checkCollision : MonoBehaviour
 
         }
 
-        else
+        //else
             //Physics.IgnoreCollision(other.GetComponent<Collider2D>(), this.GetComponent<Collider2D>, false);
     }
 
