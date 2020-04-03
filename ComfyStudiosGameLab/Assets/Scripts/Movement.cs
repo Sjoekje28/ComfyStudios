@@ -11,6 +11,8 @@ public class Movement : MonoBehaviour
 
     private bool moving = false;
 
+    public Rigidbody2D rb;
+
     // Update is called once per frame
     void Update()
     {
@@ -23,6 +25,7 @@ public class Movement : MonoBehaviour
         {
             move();
         }
+
     }
 
     void SetTargetPosition()
@@ -37,6 +40,7 @@ public class Movement : MonoBehaviour
     {
         transform.rotation = Quaternion.LookRotation(Vector3.forward, targetPosition);
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
+        rb.velocity = new Vector2(0.0f, 0.0f);
 
         if (targetPosition == transform.position)
         {
