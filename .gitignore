@@ -32,3 +32,10 @@ sysinfo.txt
 *.apk
 *.unitypackage
 *.lock
+ComfyStudiosGameLab/.vs/ComfyStudiosGameLab/v15/Server/sqlite3/storage.ide-wal
+ComfyStudiosGameLab/.vs/ComfyStudiosGameLab/v15/Server/sqlite3/storage.ide-shm
+ComfyStudiosGameLab/.vs/ComfyStudiosGameLab/v15/Server/sqlite3/storage.ide
+
+*.ide
+*.ide-shm
+*.ide-wal

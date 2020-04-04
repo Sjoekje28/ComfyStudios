@@ -8,9 +8,6 @@ public class Transparency : MonoBehaviour
     Vector3 objSize;
     public Color newColor;
     public Color oldColor = new Color(1f, 1f, 1f, 1f);
-    [HideInInspector]public Collider2D bc;
-    public GameObject player;
-    public bool playerIsFar;
 
 
 
@@ -19,14 +16,7 @@ public class Transparency : MonoBehaviour
     {
         objCollider = GetComponent<Renderer>();
         objSize = objCollider.bounds.size;
-        bc = GetComponent<Collider2D>();
-        player = GameObject.FindWithTag("Player");
-    }
-
-    void Update()
-    {
-        checkPlayerDistanceObject();
-        enableTrigger();
+       // bc = GetComponent<Collider2D>();
     }
 
 
@@ -45,11 +35,6 @@ public class Transparency : MonoBehaviour
 
         }
 
-        else
-        {
-            bc.isTrigger = false;
-            Debug.Log("1st trigger false");
-        }
             
     }
 
@@ -58,38 +43,9 @@ public class Transparency : MonoBehaviour
 
         if (other.CompareTag("Player"))
         {
-            playerIsFar = false;
             Debug.Log("Player has exited the trigger");
             GetComponent<Renderer>().material.color = oldColor;
         }
     }
 
-    public void enableTrigger()
-    {
-        if (bc.isTrigger == false && playerIsFar)
-        {
-            bc.isTrigger = true;
-        }
-        /*else
-        {
-            bc.isTrigger = false;
-            Debug.Log("2nd trigger false");
-        }*/
-    }
-
-    public void checkPlayerDistanceObject()
-    {
-        if (player.transform.position.y == objSize.y )
-        {
-            Debug.Log("player is close");
-            Debug.Log(objSize);
-            playerIsFar = false;
-        }
-
-        else
-        {
-            Debug.Log("player is far");
-            playerIsFar = true;
-        }
-    }
 }

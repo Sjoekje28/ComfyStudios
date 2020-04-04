@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     [SerializeField]
-    private float speed = 4;
+    private float speed = 10;
 
     private Vector3 targetPosition;
 
@@ -25,6 +25,7 @@ public class Movement : MonoBehaviour
         {
             move();
         }
+
 
     }
 
@@ -47,5 +48,14 @@ public class Movement : MonoBehaviour
             moving = false;
         }
 
+       
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if(gameObject.CompareTag("Building"))
+        {
+            rb.velocity = Vector3.zero;
+        }
     }
 }
