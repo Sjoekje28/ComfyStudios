@@ -2,14 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     public Animator animator;
+    [HideInInspector]
     public Vector3 target = new Vector3();
+    [HideInInspector]
     public Vector3 direction = new Vector3();
+    [HideInInspector]
     public Vector3 position = new Vector3();
+    //public Rigidbody2D rb;
     public float speed = 10f;
-    private bool moving = false;
+    public bool moving = false;
 
     void Start()
     {
@@ -31,14 +35,36 @@ public class Movement : MonoBehaviour
             animator.SetFloat("Speedd", direction.sqrMagnitude);
             animator.SetFloat("Horizontal", direction.x);
             animator.SetFloat("Vertical", direction.y);
+            
+            speed = 10f;
             moving = true;
+
         }
 
        if ((target - position).magnitude <= .06 && moving)
         {
-            animator.SetFloat("Speedd", 0f);
             moving = false;
         }
 
+       if (moving == false)
+        {
+            animator.SetFloat("Speedd", 0f);
+            speed = 0f;
+        }
+
+       // rb.velocity = new Vector2(direction.x, direction.y);
+
+        Debug.Log(moving);
+        Debug.Log(speed);
+
     }
+
+    /*void OnCollisionEnter(Collision collision)
+    {
+        if (gameObject.CompareTag("Building"))
+        {
+            Debug.Log("hit");
+            moving = false;
+        }
+    }*/
 }
