@@ -4,58 +4,41 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    [SerializeField]
-    private float speed = 10;
-
-    private Vector3 targetPosition;
-
+    public Animator animator;
+    public Vector3 target = new Vector3();
+    public Vector3 direction = new Vector3();
+    public Vector3 position = new Vector3();
+    public float speed = 10f;
     private bool moving = false;
 
-    public Rigidbody2D rb;
-
-    // Update is called once per frame
+    void Start()
+    {
+        animator = gameObject.GetComponent<Animator>();
+    }
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        position = gameObject.transform.position;
+        if (Input.GetMouseButtonDown(0))
         {
-            SetTargetPosition();
+            target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            target.z = 0;
+            
+        }
+        if (target != Vector3.zero && (target - position).magnitude >= .06)
+        {
+            direction = (target - position).normalized;
+            gameObject.transform.position += direction * speed * Time.deltaTime;
+            animator.SetFloat("Speedd", direction.sqrMagnitude);
+            animator.SetFloat("Horizontal", direction.x);
+            animator.SetFloat("Vertical", direction.y);
+            moving = true;
         }
 
-        if (moving)
+       if ((target - position).magnitude <= .06 && moving)
         {
-            move();
-        }
-
-
-    }
-
-    void SetTargetPosition()
-    {
-        targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        targetPosition.z = transform.position.z;
-
-        moving = true;
-    }
-
-    void move()
-    {
-        transform.rotation = Quaternion.LookRotation(Vector3.forward, targetPosition);
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
-        rb.velocity = new Vector2(0.0f, 0.0f);
-
-        if (targetPosition == transform.position)
-        {
+            animator.SetFloat("Speedd", 0f);
             moving = false;
         }
 
-       
-    }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        if(gameObject.CompareTag("Building"))
-        {
-            rb.velocity = Vector3.zero;
-        }
     }
 }
