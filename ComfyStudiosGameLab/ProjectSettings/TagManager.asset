@@ -8,6 +8,7 @@ TagManager:
   - Incorrect
   - Objects
   - Building
+  - something
   layers:
   - Default
   - TransparentFX
