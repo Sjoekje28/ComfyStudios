@@ -11,29 +11,25 @@ public class Pickup : MonoBehaviour
     public GameObject itemButton;
     public GameObject popup;
     public GameObject objPopup;
-    public GameObject obj_Picture;
+
+    public Image bullet_Picture;
 
     public Button choice1;
     public Button choice2;
     public Button nb;
-    public Button pictureCB;
-
     public Color incorColor = Color.red;
 
-    void Start()
+    private void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
-
         choice1.GetComponent<Button>();
         choice2.GetComponent<Button>();
         nb.GetComponent<Button>();
-        pictureCB.GetComponent<Button>();
+        bullet_Picture.GetComponent<Image>();
 
         objPopup.SetActive(false);
         popup.SetActive(false);
-        obj_Picture.SetActive(false);
-
-        pictureCB.onClick.AddListener(closeButton);
+        bullet_Picture.enabled = false;
 
     }
 
@@ -53,11 +49,6 @@ public class Pickup : MonoBehaviour
             //choice2.onClick.AddListener(discard);
         }
     }
-    void closeButton()
-    {
-        obj_Picture.SetActive(false);
-        //adds the information into the Item section of the journal.
-    }
     void choiceMenu()
     {
         objPopup.SetActive(false);
@@ -66,7 +57,6 @@ public class Pickup : MonoBehaviour
         choice1.onClick.AddListener(pickup);
         choice2.onClick.AddListener(discard);
     }
-
     public void pickup()
     {
         for (int i = 0; i < inventory.slots.Length; i++)
@@ -78,8 +68,8 @@ public class Pickup : MonoBehaviour
                 if (taggedObjs.tag == "Incorrect")
                     taggedObjs.GetComponent<Image>().color = incorColor;
                 else if (taggedObjs.tag == "Correct")
-                    obj_Picture.SetActive(true);
-                    Destroy(gameObject);
+                   //show a picture here.
+                Destroy(gameObject);
 
                 break;
             }
