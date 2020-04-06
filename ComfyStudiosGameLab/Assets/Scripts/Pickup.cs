@@ -7,16 +7,29 @@ using UnityEngine.SceneManagement;
 public class Pickup : MonoBehaviour
 {
     private Inventory inventory;
+
     public GameObject itemButton;
     public GameObject popup;
+    public GameObject objPopup;
+
+    public Image bullet_Picture;
+
     public Button choice1;
     public Button choice2;
+    public Button nb;
     public Color incorColor = Color.red;
 
     private void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
         choice1.GetComponent<Button>();
+        choice2.GetComponent<Button>();
+        nb.GetComponent<Button>();
+        bullet_Picture.GetComponent<Image>();
+
+        objPopup.SetActive(false);
+        popup.SetActive(false);
+        bullet_Picture.enabled = false;
 
     }
 
@@ -24,11 +37,25 @@ public class Pickup : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            popup.SetActive(true);
             Time.timeScale = 0;
-            choice1.onClick.AddListener(pickup);
-            choice2.onClick.AddListener(discard);
+            //objPop displays info related to objects interacted in-game before "popup" shown to check for flashback or put that object back in its place.
+            //On clicking the next button in the objPop UI, the "popup" should be shown. 
+            objPopup.SetActive(true);
+            nb.onClick.AddListener(choiceMenu);
+
+            //popup.SetActive(true);
+            //Time.timeScale = 0;
+            //choice1.onClick.AddListener(pickup);
+            //choice2.onClick.AddListener(discard);
         }
+    }
+    void choiceMenu()
+    {
+        objPopup.SetActive(false);
+        popup.SetActive(true);
+        Time.timeScale = 0;
+        choice1.onClick.AddListener(pickup);
+        choice2.onClick.AddListener(discard);
     }
     public void pickup()
     {
@@ -41,8 +68,9 @@ public class Pickup : MonoBehaviour
                 if (taggedObjs.tag == "Incorrect")
                     taggedObjs.GetComponent<Image>().color = incorColor;
                 else if (taggedObjs.tag == "Correct")
-                    SceneManager.LoadScene("Flashback_knife");
+                   //show a picture here.
                 Destroy(gameObject);
+
                 break;
             }
         }
@@ -53,6 +81,5 @@ public class Pickup : MonoBehaviour
     {
         Time.timeScale = 1;
         popup.SetActive(false);
-        Destroy(gameObject);
     }
 }

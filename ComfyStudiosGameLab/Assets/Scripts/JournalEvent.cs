@@ -8,6 +8,7 @@ public class JournalEvent : MonoBehaviour
     public Button jb;
     public GameObject jbUI;
     public Button cjb;
+    public Button poeSection;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,7 @@ public class JournalEvent : MonoBehaviour
         jb.onClick.AddListener(jbPopup);
         jbUI.SetActive(false);
         cjb.onClick.AddListener(jbClose);
+        poeSection.onClick.AddListener(bullet_poe);
     }
 
     private void jbPopup()
@@ -26,5 +28,9 @@ public class JournalEvent : MonoBehaviour
     {
         Time.timeScale = 1;
         jbUI.SetActive(false);
+    }
+    private void bullet_poe()
+    {
+        //Displays the information about bullet when clicking the PoE button.
     }
 }
