@@ -1,32 +1,53 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class hit : MonoBehaviour
 {
-    public GameObject player;
-    public PlayerMovement playerMovement;
-    //public Playerscript playerscript;
-    // Start is called before the first frame update
+    private Inventory inventory;
+    private GameObject testing;
+    public GameObject popupME;
+    public Button choice1;
+    public Button choice2;
+    public GameObject ME;
+
+
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        playerMovement = player.GetComponent<PlayerMovement>();
+        inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
+        testing = GameObject.Find("Testing");
+        choice1.GetComponent<Button>();
+        choice2.GetComponent<Button>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
-    public void OnTriggerStay(Collider other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && inventory.slotsFull[4] == true)
         {
             Debug.Log("Player has also entered this trigger");
-            playerMovement.moving = false;
+            popupME.SetActive(true);
+            Time.timeScale = 0;
+            choice1.onClick.AddListener(MEScene);
+            choice2.onClick.AddListener(discard);
+            
+           
                 
         }
+    }
+
+    public void MEScene()
+    {
+        Time.timeScale = 1;
+        popupME.SetActive(false);
+        testing.SetActive(false);
+        ME.SetActive(true);
+    }
+
+    public void discard()
+    {
+        Time.timeScale = 1;
+        popupME.SetActive(false);
     }
 }

@@ -41,3 +41,4 @@ sysinfo.txt
 *.ide
 *.ide-shm
 *.ide-wal
+*.ide-shm
