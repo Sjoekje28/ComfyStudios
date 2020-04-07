@@ -9,6 +9,7 @@ TagManager:
   - Objects
   - Building
   - something
+  - Bush
   layers:
   - Default
   - TransparentFX
