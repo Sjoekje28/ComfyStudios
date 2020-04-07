@@ -1625,7 +1625,6 @@ GameObject:
   - component: {fileID: 593865141}
   - component: {fileID: 593865140}
   - component: {fileID: 593865139}
-  - component: {fileID: 593865142}
   m_Layer: 0
   m_Name: scene_close
   m_TagString: Untagged
@@ -1732,28 +1731,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593865137}
   m_CullTransparentMesh: 0
---- !u!114 &593865142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593865137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 082d81310293f404d95cfa90034f0045, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemButton: {fileID: 1322252192144535621, guid: f032fd801d2f99348bd24000ba699da4,
-    type: 3}
-  popup: {fileID: 564216104}
-  objPopup: {fileID: 1749415527}
-  obj_Picture: {fileID: 187676973}
-  choice1: {fileID: 1661374325}
-  choice2: {fileID: 2126865385}
-  nb: {fileID: 963766628}
-  pictureCB: {fileID: 593865139}
-  incorColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &630869251
 GameObject:
   m_ObjectHideFlags: 0

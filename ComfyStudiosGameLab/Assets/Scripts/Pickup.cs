@@ -55,8 +55,8 @@ public class Pickup : MonoBehaviour
     }
     void closeButton()
     {
-        obj_Picture.SetActive(false);
-        //adds the information into the Item section of the journal.
+        Debug.Log("something");
+        //stuck here (This section isnt working).
     }
     void choiceMenu()
     {
