@@ -54,17 +54,10 @@ public class PlayerMovement : MonoBehaviour
 
        // rb.velocity = new Vector2(direction.x, direction.y);
 
-        Debug.Log(moving);
-        Debug.Log(speed);
+        //Debug.Log(moving);
+        //Debug.Log(speed);
 
     }
 
-    /*void OnCollisionEnter(Collision collision)
-    {
-        if (gameObject.CompareTag("Building"))
-        {
-            Debug.Log("hit");
-            moving = false;
-        }
-    }*/
+    
 }

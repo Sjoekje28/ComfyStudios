@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class hit : MonoBehaviour
+public class METransition : MonoBehaviour
 {
     private Inventory inventory;
     private GameObject testing;
@@ -26,7 +26,7 @@ public class hit : MonoBehaviour
     {
         if (other.CompareTag("Player") && inventory.slotsFull[4] == true)
         {
-            Debug.Log("Player has also entered this trigger");
+            //Debug.Log("Player has also entered this trigger");
             popupME.SetActive(true);
             Time.timeScale = 0;
             choice1.onClick.AddListener(MEScene);
@@ -43,6 +43,7 @@ public class hit : MonoBehaviour
         popupME.SetActive(false);
         testing.SetActive(false);
         ME.SetActive(true);
+
     }
 
     public void discard()

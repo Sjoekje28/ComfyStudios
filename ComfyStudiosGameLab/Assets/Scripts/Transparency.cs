@@ -30,7 +30,7 @@ public class Transparency : MonoBehaviour
         if (other.CompareTag("Player")) //&& other.transform.position.y > (size.transform.position.y / 2.5f))
         {
 
-            Debug.Log("Player has entered the trigger");
+            //Debug.Log("Player has entered the trigger");
             /*Color newColor = other.GetComponent<SpriteRenderer>().color;
             Debug.Log(newColor);
             newColor = Color.red;*/
@@ -48,7 +48,7 @@ public class Transparency : MonoBehaviour
 
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player has exited the trigger");
+            //Debug.Log("Player has exited the trigger");
             GetComponent<Renderer>().material.color = oldColor;
         }
     }
