@@ -55,8 +55,13 @@ public class Pickup : MonoBehaviour
     }
     void closeButton()
     {
+<<<<<<< HEAD
         Debug.Log("something");
         //stuck here (This section isnt working).
+=======
+        obj_Picture.SetActive(false);
+        //adds the information into the Item section of the journal.
+>>>>>>> parent of d5c4ed9... Revert "Merge branch 'master' of https://github.com/Sjoekje28/ComfyStudios"
     }
     void choiceMenu()
     {
