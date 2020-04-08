@@ -12,6 +12,7 @@ TagManager:
   - Bush
   - NPC
   - Gun
+  - Clothing Spot
   layers:
   - Default
   - TransparentFX

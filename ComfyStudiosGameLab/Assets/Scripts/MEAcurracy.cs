@@ -9,12 +9,15 @@ public class MEAcurracy : MonoBehaviour
     public int currentAccuracy;
     public int MinAccuracy = 0;
     public AccuracyBar accuracyBar;
+    public Sprite deadVictim;
 
     public GameObject dialogue;
     public GameObject slap;
     public GameObject smack;
     public GameObject murder;
     public GameObject victim;
+    public GameObject slap2;
+    public GameObject pieceClothing;
 
     public Button drag;
     public Button kick;
@@ -25,6 +28,8 @@ public class MEAcurracy : MonoBehaviour
     public Button yess;
     public Button throat;
     public Button heart;
+    public Button choke;
+    public Button slapAgain;
         
     private bool correctDragging = false;
     
@@ -36,14 +41,15 @@ public class MEAcurracy : MonoBehaviour
         choice1.GetComponent<Button>();
         choice2.GetComponent<Button>();
         dialogue.SetActive(false);
-        victim = GameObject.FindGameObjectWithTag("NPC");
+        //victim = GameObject.FindGameObjectWithTag("NPC");
+        //pieceClothing = GameObject.Find("Piece_of_Clothing");
     }
 
     // Update is called once per frame
     void Update()
     {
         //Debug.Log(correctDragging);
-        //Debug.Log(currentAccuracy);
+        Debug.Log(currentAccuracy);
 
     }
 
@@ -72,29 +78,36 @@ public class MEAcurracy : MonoBehaviour
         {
             slapVictim();
             if (correctDragging )
-        {
-            Debug.Log("Drag drag");
-            other.transform.parent = gameObject.transform;
+            {
+                //Debug.Log("Drag drag");
+                other.transform.parent = gameObject.transform;
                 //Time.timeScale = 1;
                 slap.SetActive(false);
                 AddAccuracy(1);
-        }
+            }
 
         }
+
+        if (other.CompareTag("Clothing Spot") && currentAccuracy == 4)
+        {
+            correctDragging = false;
+            this.transform.DetachChildren();
+            clothes();
+        }
         
-        if (other.CompareTag("Incorrect") && currentAccuracy == 4)
+        if (other.CompareTag("Incorrect") && currentAccuracy == 5)
         {
             putDown();            
         }
-        if (other.CompareTag("NPC") && currentAccuracy == 4)
+        if (other.CompareTag("NPC") && currentAccuracy == 5)
         {           
            other.transform.parent = gameObject.transform;                
         }
-        if (other.CompareTag("Correct") && currentAccuracy == 4)
+        if (other.CompareTag("Correct") && currentAccuracy == 5)
         {
             putDownReal();          
         }
-        if (other.CompareTag("Gun") && currentAccuracy == 5)
+        if (other.CompareTag("Gun") && currentAccuracy == 6)
         {
             Murder();
         }
@@ -205,6 +218,26 @@ public class MEAcurracy : MonoBehaviour
         Time.timeScale = 1;
         murder.SetActive(false);
         AddAccuracy(1);
-
+        victim.gameObject.GetComponent<SpriteRenderer>().sprite = deadVictim;
     }
+
+    void clothes()
+    {
+        slap2.SetActive(true);
+        slapAgain.onClick.AddListener(slapClothes);
+        choke.onClick.AddListener(choking);
+    }
+
+    void slapClothes()
+    {
+        Time.timeScale = 1;
+        slap2.SetActive(false);
+        pieceClothing.SetActive(true);
+        AddAccuracy(1);
+    }
+
+    void choking() {
+        Time.timeScale = 1;
+        slap2.SetActive(false);
+}
 }
