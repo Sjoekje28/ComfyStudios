@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector]
     public Vector3 position = new Vector3();
     //public Rigidbody2D rb;
-    public float speed = 10f;
+    public float speed = 5f;
     public bool moving = false;
 
     void Start()
@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("Horizontal", direction.x);
             animator.SetFloat("Vertical", direction.y);
             
-            speed = 10f;
+            speed = 4f;
             moving = true;
 
         }
