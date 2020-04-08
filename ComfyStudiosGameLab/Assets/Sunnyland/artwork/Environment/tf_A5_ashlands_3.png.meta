@@ -1,0 +1,5767 @@
+fileFormatVersion: 2
+guid: 10ded085344a8d447b9f4d73f70f6763
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2609102409267329154
+    second: tf_A5_ashlands_3_0
+  - first:
+      213: -2977862739136911205
+    second: tf_A5_ashlands_3_1
+  - first:
+      213: 8806096485506130740
+    second: tf_A5_ashlands_3_2
+  - first:
+      213: -6770538384588372199
+    second: tf_A5_ashlands_3_3
+  - first:
+      213: 968238876258371757
+    second: tf_A5_ashlands_3_4
+  - first:
+      213: 2287813379198527697
+    second: tf_A5_ashlands_3_5
+  - first:
+      213: 3222706063745089560
+    second: tf_A5_ashlands_3_6
+  - first:
+      213: 8233901350338938725
+    second: tf_A5_ashlands_3_7
+  - first:
+      213: -6481487252342270237
+    second: tf_A5_ashlands_3_8
+  - first:
+      213: 455419965731037933
+    second: tf_A5_ashlands_3_9
+  - first:
+      213: 791098345634375015
+    second: tf_A5_ashlands_3_10
+  - first:
+      213: 9075394671281259665
+    second: tf_A5_ashlands_3_11
+  - first:
+      213: -8434228957762202761
+    second: tf_A5_ashlands_3_12
+  - first:
+      213: -787735375116426241
+    second: tf_A5_ashlands_3_13
+  - first:
+      213: -4800181806865410658
+    second: tf_A5_ashlands_3_14
+  - first:
+      213: -5757218453692046107
+    second: tf_A5_ashlands_3_15
+  - first:
+      213: 6798307316278973409
+    second: tf_A5_ashlands_3_16
+  - first:
+      213: 744427448829997642
+    second: tf_A5_ashlands_3_17
+  - first:
+      213: -7946708884134342906
+    second: tf_A5_ashlands_3_18
+  - first:
+      213: 4633979587639376549
+    second: tf_A5_ashlands_3_19
+  - first:
+      213: -6661949537083427512
+    second: tf_A5_ashlands_3_20
+  - first:
+      213: -4336151269578354689
+    second: tf_A5_ashlands_3_21
+  - first:
+      213: -2692260705147916909
+    second: tf_A5_ashlands_3_22
+  - first:
+      213: 1831545452266281909
+    second: tf_A5_ashlands_3_23
+  - first:
+      213: -3140005313109945388
+    second: tf_A5_ashlands_3_24
+  - first:
+      213: -4570901578228449900
+    second: tf_A5_ashlands_3_25
+  - first:
+      213: 3932978891747047609
+    second: tf_A5_ashlands_3_26
+  - first:
+      213: 2984185666001016889
+    second: tf_A5_ashlands_3_27
+  - first:
+      213: -6749535063436342443
+    second: tf_A5_ashlands_3_28
+  - first:
+      213: 2622634430000389425
+    second: tf_A5_ashlands_3_29
+  - first:
+      213: -3855223364118418833
+    second: tf_A5_ashlands_3_30
+  - first:
+      213: 5063616986475976190
+    second: tf_A5_ashlands_3_31
+  - first:
+      213: -7609727849255001578
+    second: tf_A5_ashlands_3_32
+  - first:
+      213: -4352441694130816000
+    second: tf_A5_ashlands_3_33
+  - first:
+      213: -943215095088772006
+    second: tf_A5_ashlands_3_34
+  - first:
+      213: -1385529601467926998
+    second: tf_A5_ashlands_3_35
+  - first:
+      213: 2015279462117012662
+    second: tf_A5_ashlands_3_36
+  - first:
+      213: 7058954925767733851
+    second: tf_A5_ashlands_3_37
+  - first:
+      213: -423484910806954811
+    second: tf_A5_ashlands_3_38
+  - first:
+      213: -7380754057577950739
+    second: tf_A5_ashlands_3_39
+  - first:
+      213: -8400427509830438544
+    second: tf_A5_ashlands_3_40
+  - first:
+      213: 6093860046893359692
+    second: tf_A5_ashlands_3_41
+  - first:
+      213: 8208531008326401858
+    second: tf_A5_ashlands_3_42
+  - first:
+      213: 8177286318467594551
+    second: tf_A5_ashlands_3_43
+  - first:
+      213: 5452494412491044851
+    second: tf_A5_ashlands_3_44
+  - first:
+      213: -1749136335552117940
+    second: tf_A5_ashlands_3_45
+  - first:
+      213: -5663509869768154620
+    second: tf_A5_ashlands_3_46
+  - first:
+      213: 4896451349967503477
+    second: tf_A5_ashlands_3_47
+  - first:
+      213: -5843487744279472257
+    second: tf_A5_ashlands_3_48
+  - first:
+      213: -4544136312981800712
+    second: tf_A5_ashlands_3_49
+  - first:
+      213: 1537111651629695695
+    second: tf_A5_ashlands_3_50
+  - first:
+      213: -542989040722409083
+    second: tf_A5_ashlands_3_51
+  - first:
+      213: -2306603117712460670
+    second: tf_A5_ashlands_3_52
+  - first:
+      213: -5672705148615896590
+    second: tf_A5_ashlands_3_53
+  - first:
+      213: -1906117531620069708
+    second: tf_A5_ashlands_3_54
+  - first:
+      213: -4477434082921850581
+    second: tf_A5_ashlands_3_55
+  - first:
+      213: 6886231718834351603
+    second: tf_A5_ashlands_3_56
+  - first:
+      213: 2101044327261499006
+    second: tf_A5_ashlands_3_57
+  - first:
+      213: 4708405962428431858
+    second: tf_A5_ashlands_3_58
+  - first:
+      213: 6099315890922856079
+    second: tf_A5_ashlands_3_59
+  - first:
+      213: -9085761218775895920
+    second: tf_A5_ashlands_3_60
+  - first:
+      213: -2284055671199714269
+    second: tf_A5_ashlands_3_61
+  - first:
+      213: -939879160628915639
+    second: tf_A5_ashlands_3_62
+  - first:
+      213: -3213221902911177613
+    second: tf_A5_ashlands_3_63
+  - first:
+      213: 3528283247859387674
+    second: tf_A5_ashlands_3_64
+  - first:
+      213: 9134148255926215166
+    second: tf_A5_ashlands_3_65
+  - first:
+      213: 3023530438947680370
+    second: tf_A5_ashlands_3_66
+  - first:
+      213: -7346890055160862762
+    second: tf_A5_ashlands_3_67
+  - first:
+      213: -5106024582829234990
+    second: tf_A5_ashlands_3_68
+  - first:
+      213: -2076851853408267102
+    second: tf_A5_ashlands_3_69
+  - first:
+      213: 187885943017821017
+    second: tf_A5_ashlands_3_70
+  - first:
+      213: -3100712487992019757
+    second: tf_A5_ashlands_3_71
+  - first:
+      213: -6765242716899404934
+    second: tf_A5_ashlands_3_72
+  - first:
+      213: 741790495537936829
+    second: tf_A5_ashlands_3_73
+  - first:
+      213: 688780169462767371
+    second: tf_A5_ashlands_3_74
+  - first:
+      213: -2553005468215505819
+    second: tf_A5_ashlands_3_75
+  - first:
+      213: 4379860563390890744
+    second: tf_A5_ashlands_3_76
+  - first:
+      213: 7672477504053659797
+    second: tf_A5_ashlands_3_77
+  - first:
+      213: 3023813005632455398
+    second: tf_A5_ashlands_3_78
+  - first:
+      213: 6298264070688069743
+    second: tf_A5_ashlands_3_79
+  - first:
+      213: 96703000746412274
+    second: tf_A5_ashlands_3_80
+  - first:
+      213: -9095521689970906953
+    second: tf_A5_ashlands_3_81
+  - first:
+      213: 9180092690966884522
+    second: tf_A5_ashlands_3_82
+  - first:
+      213: 1467234305610539327
+    second: tf_A5_ashlands_3_83
+  - first:
+      213: 22036088397016017
+    second: tf_A5_ashlands_3_84
+  - first:
+      213: -6516235867230658327
+    second: tf_A5_ashlands_3_85
+  - first:
+      213: -5576473175346509008
+    second: tf_A5_ashlands_3_86
+  - first:
+      213: -405021585706371916
+    second: tf_A5_ashlands_3_87
+  - first:
+      213: 3229370466609998318
+    second: tf_A5_ashlands_3_88
+  - first:
+      213: 6230092730084760625
+    second: tf_A5_ashlands_3_89
+  - first:
+      213: 4535434135802774941
+    second: tf_A5_ashlands_3_90
+  - first:
+      213: 6429042892819312316
+    second: tf_A5_ashlands_3_91
+  - first:
+      213: 6087611634683171866
+    second: tf_A5_ashlands_3_92
+  - first:
+      213: -1255241943364476646
+    second: tf_A5_ashlands_3_93
+  - first:
+      213: 8683036110669427634
+    second: tf_A5_ashlands_3_94
+  - first:
+      213: 4374797344925346598
+    second: tf_A5_ashlands_3_95
+  - first:
+      213: 4555068515014007982
+    second: tf_A5_ashlands_3_96
+  - first:
+      213: -8846539953087236720
+    second: tf_A5_ashlands_3_97
+  - first:
+      213: -7780721400240792242
+    second: tf_A5_ashlands_3_98
+  - first:
+      213: -1909654313841369583
+    second: tf_A5_ashlands_3_99
+  - first:
+      213: -4795691962833400348
+    second: tf_A5_ashlands_3_100
+  - first:
+      213: 7801520555281447628
+    second: tf_A5_ashlands_3_101
+  - first:
+      213: 802764839457703777
+    second: tf_A5_ashlands_3_102
+  - first:
+      213: 13718303301455099
+    second: tf_A5_ashlands_3_103
+  - first:
+      213: -3014295151650308347
+    second: tf_A5_ashlands_3_104
+  - first:
+      213: 8306317227493459719
+    second: tf_A5_ashlands_3_105
+  - first:
+      213: -7888278457668296085
+    second: tf_A5_ashlands_3_106
+  - first:
+      213: 9127323258652940783
+    second: tf_A5_ashlands_3_107
+  - first:
+      213: -2759496392078532514
+    second: tf_A5_ashlands_3_108
+  - first:
+      213: -3881278439359121081
+    second: tf_A5_ashlands_3_109
+  - first:
+      213: -6962287670996166959
+    second: tf_A5_ashlands_3_110
+  - first:
+      213: 3408760307505065629
+    second: tf_A5_ashlands_3_111
+  - first:
+      213: 8244491243275557483
+    second: tf_A5_ashlands_3_112
+  - first:
+      213: -5150128346348704436
+    second: tf_A5_ashlands_3_113
+  - first:
+      213: 2054201020723785001
+    second: tf_A5_ashlands_3_114
+  - first:
+      213: 1924375661162815630
+    second: tf_A5_ashlands_3_115
+  - first:
+      213: 4580327228421485644
+    second: tf_A5_ashlands_3_116
+  - first:
+      213: -6994485923134853442
+    second: tf_A5_ashlands_3_117
+  - first:
+      213: 891985737468692496
+    second: tf_A5_ashlands_3_118
+  - first:
+      213: 5198671754295592589
+    second: tf_A5_ashlands_3_119
+  - first:
+      213: 7161914925593820283
+    second: tf_A5_ashlands_3_120
+  - first:
+      213: 7531031211069961436
+    second: tf_A5_ashlands_3_121
+  - first:
+      213: 3658457528213931471
+    second: tf_A5_ashlands_3_122
+  - first:
+      213: 5428474940100810584
+    second: tf_A5_ashlands_3_123
+  - first:
+      213: -1894419010668819261
+    second: tf_A5_ashlands_3_124
+  - first:
+      213: 7545192504072305721
+    second: tf_A5_ashlands_3_125
+  - first:
+      213: -5319193711217925122
+    second: tf_A5_ashlands_3_126
+  - first:
+      213: 5000318198022254534
+    second: tf_A5_ashlands_3_127
+  - first:
+      213: -3836038635796544100
+    second: tf_A5_ashlands_3_128
+  - first:
+      213: 625014178496718182
+    second: tf_A5_ashlands_3_129
+  - first:
+      213: -7119529696743946292
+    second: tf_A5_ashlands_3_130
+  - first:
+      213: -2155492576605656661
+    second: tf_A5_ashlands_3_131
+  - first:
+      213: -2304742353889638061
+    second: tf_A5_ashlands_3_132
+  - first:
+      213: -6096778881449197695
+    second: tf_A5_ashlands_3_133
+  - first:
+      213: -536326437638655873
+    second: tf_A5_ashlands_3_134
+  - first:
+      213: 5859563477220583042
+    second: tf_A5_ashlands_3_135
+  - first:
+      213: 733644089281945529
+    second: tf_A5_ashlands_3_136
+  - first:
+      213: -8677191254152015936
+    second: tf_A5_ashlands_3_137
+  - first:
+      213: -2220645004590284051
+    second: tf_A5_ashlands_3_138
+  - first:
+      213: 5106346721873902911
+    second: tf_A5_ashlands_3_139
+  - first:
+      213: 6329579783371646508
+    second: tf_A5_ashlands_3_140
+  - first:
+      213: -1989227373034576547
+    second: tf_A5_ashlands_3_141
+  - first:
+      213: 1032620943557152932
+    second: tf_A5_ashlands_3_142
+  - first:
+      213: 2443742499863139105
+    second: tf_A5_ashlands_3_143
+  - first:
+      213: -6069443889399863580
+    second: tf_A5_ashlands_3_144
+  - first:
+      213: -4879912713574145257
+    second: tf_A5_ashlands_3_145
+  - first:
+      213: 7808142441571880181
+    second: tf_A5_ashlands_3_146
+  - first:
+      213: -1973538263498800353
+    second: tf_A5_ashlands_3_147
+  - first:
+      213: -7662058119714475091
+    second: tf_A5_ashlands_3_148
+  - first:
+      213: 1258683429845447029
+    second: tf_A5_ashlands_3_149
+  - first:
+      213: -9168745803031403778
+    second: tf_A5_ashlands_3_150
+  - first:
+      213: 1889511700634603802
+    second: tf_A5_ashlands_3_151
+  - first:
+      213: 3271668751789434373
+    second: tf_A5_ashlands_3_152
+  - first:
+      213: -921607692763392254
+    second: tf_A5_ashlands_3_153
+  - first:
+      213: -4653681235203494035
+    second: tf_A5_ashlands_3_154
+  - first:
+      213: -2160423044365390722
+    second: tf_A5_ashlands_3_155
+  - first:
+      213: -6324474340953681436
+    second: tf_A5_ashlands_3_156
+  - first:
+      213: 7136390469987492522
+    second: tf_A5_ashlands_3_157
+  - first:
+      213: -1386384196433344540
+    second: tf_A5_ashlands_3_158
+  - first:
+      213: 2952405021562153721
+    second: tf_A5_ashlands_3_159
+  - first:
+      213: -3063564632497158096
+    second: tf_A5_ashlands_3_160
+  - first:
+      213: -3185171190768564489
+    second: tf_A5_ashlands_3_161
+  - first:
+      213: -6704244212835922338
+    second: tf_A5_ashlands_3_162
+  - first:
+      213: -2752131353169705841
+    second: tf_A5_ashlands_3_163
+  - first:
+      213: -5123009746506533509
+    second: tf_A5_ashlands_3_164
+  - first:
+      213: -2630621034978262500
+    second: tf_A5_ashlands_3_165
+  - first:
+      213: -4527156941227718941
+    second: tf_A5_ashlands_3_166
+  - first:
+      213: 5730889472113976806
+    second: tf_A5_ashlands_3_167
+  - first:
+      213: -8872191749482015069
+    second: tf_A5_ashlands_3_168
+  - first:
+      213: -705342885051550134
+    second: tf_A5_ashlands_3_169
+  - first:
+      213: 4020913730362689519
+    second: tf_A5_ashlands_3_170
+  - first:
+      213: 6391015608107684973
+    second: tf_A5_ashlands_3_171
+  - first:
+      213: 7473633924087433941
+    second: tf_A5_ashlands_3_172
+  - first:
+      213: 4127083244656081516
+    second: tf_A5_ashlands_3_173
+  - first:
+      213: 4342032866165239567
+    second: tf_A5_ashlands_3_174
+  - first:
+      213: 1516235650530323530
+    second: tf_A5_ashlands_3_175
+  - first:
+      213: 6573179862923491657
+    second: tf_A5_ashlands_3_176
+  - first:
+      213: -1961310956554849039
+    second: tf_A5_ashlands_3_177
+  - first:
+      213: -2737494124847252006
+    second: tf_A5_ashlands_3_178
+  - first:
+      213: -5139871348859199218
+    second: tf_A5_ashlands_3_179
+  - first:
+      213: -3947378503358840367
+    second: tf_A5_ashlands_3_180
+  - first:
+      213: 1562459531682005520
+    second: tf_A5_ashlands_3_181
+  - first:
+      213: -7850640482885442486
+    second: tf_A5_ashlands_3_182
+  - first:
+      213: 3471499152779271251
+    second: tf_A5_ashlands_3_183
+  - first:
+      213: -8426986229797633825
+    second: tf_A5_ashlands_3_184
+  - first:
+      213: 3579400030327874670
+    second: tf_A5_ashlands_3_185
+  - first:
+      213: -2910206938039916339
+    second: tf_A5_ashlands_3_186
+  - first:
+      213: 1714847625120509160
+    second: tf_A5_ashlands_3_187
+  - first:
+      213: -6915493339718855421
+    second: tf_A5_ashlands_3_188
+  - first:
+      213: -6232401469628940432
+    second: tf_A5_ashlands_3_189
+  - first:
+      213: 8311458691548983770
+    second: tf_A5_ashlands_3_190
+  - first:
+      213: 1181095414183769953
+    second: tf_A5_ashlands_3_191
+  - first:
+      213: 6732246405284782440
+    second: tf_A5_ashlands_3_192
+  - first:
+      213: -2850531284917790503
+    second: tf_A5_ashlands_3_193
+  - first:
+      213: -7159195782744365474
+    second: tf_A5_ashlands_3_194
+  - first:
+      213: 6963061419201491463
+    second: tf_A5_ashlands_3_195
+  - first:
+      213: 898362902268050690
+    second: tf_A5_ashlands_3_196
+  - first:
+      213: -4884755743581492134
+    second: tf_A5_ashlands_3_197
+  - first:
+      213: 6797969654914873810
+    second: tf_A5_ashlands_3_198
+  - first:
+      213: -4212777630305183342
+    second: tf_A5_ashlands_3_199
+  - first:
+      213: 3387270122158260843
+    second: tf_A5_ashlands_3_200
+  - first:
+      213: 9216611367680514154
+    second: tf_A5_ashlands_3_201
+  - first:
+      213: 8391238882467307163
+    second: tf_A5_ashlands_3_202
+  - first:
+      213: 5752133359920681844
+    second: tf_A5_ashlands_3_203
+  - first:
+      213: -7696620158658440210
+    second: tf_A5_ashlands_3_204
+  - first:
+      213: -5948341622037649626
+    second: tf_A5_ashlands_3_205
+  - first:
+      213: 448377472166120125
+    second: tf_A5_ashlands_3_206
+  - first:
+      213: 2189056581374603973
+    second: tf_A5_ashlands_3_207
+  - first:
+      213: 882944555817255075
+    second: tf_A5_ashlands_3_208
+  - first:
+      213: 8834156669498058336
+    second: tf_A5_ashlands_3_209
+  - first:
+      213: -9021671935331810719
+    second: tf_A5_ashlands_3_210
+  - first:
+      213: 3270039373125021837
+    second: tf_A5_ashlands_3_211
+  - first:
+      213: 6487270185041323928
+    second: tf_A5_ashlands_3_212
+  - first:
+      213: 2291907892173768181
+    second: tf_A5_ashlands_3_213
+  - first:
+      213: 3552896444668641597
+    second: tf_A5_ashlands_3_214
+  - first:
+      213: -4860998082757587406
+    second: tf_A5_ashlands_3_215
+  - first:
+      213: 8499133194456112939
+    second: tf_A5_ashlands_3_216
+  - first:
+      213: 183902022808462889
+    second: tf_A5_ashlands_3_217
+  - first:
+      213: -419154457888879174
+    second: tf_A5_ashlands_3_218
+  - first:
+      213: -1547674963747881054
+    second: tf_A5_ashlands_3_219
+  - first:
+      213: -2158905948643494428
+    second: tf_A5_ashlands_3_220
+  - first:
+      213: -6105906962903573267
+    second: tf_A5_ashlands_3_221
+  - first:
+      213: -1101317691694008931
+    second: tf_A5_ashlands_3_222
+  - first:
+      213: 7298864930632387927
+    second: tf_A5_ashlands_3_223
+  - first:
+      213: -3365011682449880374
+    second: tf_A5_ashlands_3_224
+  - first:
+      213: -3129898519274618540
+    second: tf_A5_ashlands_3_225
+  - first:
+      213: -8468819326569619294
+    second: tf_A5_ashlands_3_226
+  - first:
+      213: 379221739260908605
+    second: tf_A5_ashlands_3_227
+  - first:
+      213: 5426398718547034863
+    second: tf_A5_ashlands_3_228
+  - first:
+      213: -1709578540381959681
+    second: tf_A5_ashlands_3_229
+  - first:
+      213: 6862988697098737303
+    second: tf_A5_ashlands_3_230
+  - first:
+      213: 646418655691324002
+    second: tf_A5_ashlands_3_231
+  - first:
+      213: 8498963962692142546
+    second: tf_A5_ashlands_3_232
+  - first:
+      213: -5153872002515665664
+    second: tf_A5_ashlands_3_233
+  - first:
+      213: 8306853952932429599
+    second: tf_A5_ashlands_3_234
+  - first:
+      213: -5916515101342543660
+    second: tf_A5_ashlands_3_235
+  - first:
+      213: -6799106219581062186
+    second: tf_A5_ashlands_3_236
+  - first:
+      213: 1815823550301192023
+    second: tf_A5_ashlands_3_237
+  - first:
+      213: -2931439904256986354
+    second: tf_A5_ashlands_3_238
+  - first:
+      213: 5812146678155429400
+    second: tf_A5_ashlands_3_239
+  - first:
+      213: 1314038571227293628
+    second: tf_A5_ashlands_3_240
+  - first:
+      213: -5585624566937061206
+    second: tf_A5_ashlands_3_241
+  - first:
+      213: 3374849081663486524
+    second: tf_A5_ashlands_3_242
+  - first:
+      213: -3852753760106022183
+    second: tf_A5_ashlands_3_243
+  - first:
+      213: -1910213500608627809
+    second: tf_A5_ashlands_3_244
+  - first:
+      213: -3909025262670362026
+    second: tf_A5_ashlands_3_245
+  - first:
+      213: -2172475705031581817
+    second: tf_A5_ashlands_3_246
+  - first:
+      213: 5359510041653760256
+    second: tf_A5_ashlands_3_247
+  - first:
+      213: 2725495508898628432
+    second: tf_A5_ashlands_3_248
+  - first:
+      213: -8823583425601112744
+    second: tf_A5_ashlands_3_249
+  - first:
+      213: 8891194497174953860
+    second: tf_A5_ashlands_3_250
+  - first:
+      213: 3178910493809818375
+    second: tf_A5_ashlands_3_251
+  - first:
+      213: 1300674691357983956
+    second: tf_A5_ashlands_3_252
+  - first:
+      213: -732116476176857737
+    second: tf_A5_ashlands_3_253
+  - first:
+      213: -6335297687407793077
+    second: tf_A5_ashlands_3_254
+  - first:
+      213: -12586521270609349
+    second: tf_A5_ashlands_3_255
+  - first:
+      213: -8706995794194764673
+    second: tf_A5_ashlands_3_256
+  - first:
+      213: -516829231462807193
+    second: tf_A5_ashlands_3_257
+  - first:
+      213: -7443704992180087595
+    second: tf_A5_ashlands_3_258
+  - first:
+      213: -4554008986629147908
+    second: tf_A5_ashlands_3_259
+  - first:
+      213: -4399954526629794252
+    second: tf_A5_ashlands_3_260
+  - first:
+      213: -616230809633718679
+    second: tf_A5_ashlands_3_261
+  - first:
+      213: -5141948130500618720
+    second: tf_A5_ashlands_3_262
+  - first:
+      213: 477932282719574854
+    second: tf_A5_ashlands_3_263
+  - first:
+      213: 219540348808995218
+    second: tf_A5_ashlands_3_264
+  - first:
+      213: 8133805406562646892
+    second: tf_A5_ashlands_3_265
+  - first:
+      213: -1291408193368166816
+    second: tf_A5_ashlands_3_266
+  - first:
+      213: -113464654042266219
+    second: tf_A5_ashlands_3_267
+  - first:
+      213: 6037304292344545809
+    second: tf_A5_ashlands_3_268
+  - first:
+      213: -1646283311027115417
+    second: tf_A5_ashlands_3_269
+  - first:
+      213: 6260731244466104164
+    second: tf_A5_ashlands_3_270
+  - first:
+      213: -6877053362466685636
+    second: tf_A5_ashlands_3_271
+  - first:
+      213: 4007051754884741848
+    second: tf_A5_ashlands_3_272
+  - first:
+      213: 109939610211763133
+    second: tf_A5_ashlands_3_273
+  - first:
+      213: -7050710172058881717
+    second: tf_A5_ashlands_3_274
+  - first:
+      213: 3548812529665659265
+    second: tf_A5_ashlands_3_275
+  - first:
+      213: 7244455971789907754
+    second: tf_A5_ashlands_3_276
+  - first:
+      213: -4429864726722795183
+    second: tf_A5_ashlands_3_277
+  - first:
+      213: 4102023890794104739
+    second: tf_A5_ashlands_3_278
+  - first:
+      213: -8938815599084963430
+    second: tf_A5_ashlands_3_279
+  - first:
+      213: 8119642924783807619
+    second: tf_A5_ashlands_3_280
+  - first:
+      213: -557846520964986518
+    second: tf_A5_ashlands_3_281
+  - first:
+      213: 9069445463333192138
+    second: tf_A5_ashlands_3_282
+  - first:
+      213: 1613567170649071662
+    second: tf_A5_ashlands_3_283
+  - first:
+      213: 8654288581426903639
+    second: tf_A5_ashlands_3_284
+  - first:
+      213: 3432204084223762370
+    second: tf_A5_ashlands_3_285
+  - first:
+      213: -2075187180342890688
+    second: tf_A5_ashlands_3_286
+  - first:
+      213: 1134678989751072495
+    second: tf_A5_ashlands_3_287
+  - first:
+      213: -5444722963798005323
+    second: tf_A5_ashlands_3_288
+  - first:
+      213: -7744185324170062123
+    second: tf_A5_ashlands_3_289
+  - first:
+      213: 4877138363276164443
+    second: tf_A5_ashlands_3_290
+  - first:
+      213: 8594125374494974257
+    second: tf_A5_ashlands_3_291
+  - first:
+      213: 4691366583712261059
+    second: tf_A5_ashlands_3_292
+  - first:
+      213: 7831305676475389415
+    second: tf_A5_ashlands_3_293
+  - first:
+      213: 8657987477459226078
+    second: tf_A5_ashlands_3_294
+  - first:
+      213: -6520669868539911679
+    second: tf_A5_ashlands_3_295
+  - first:
+      213: -2411357271806716334
+    second: tf_A5_ashlands_3_296
+  - first:
+      213: 5743859913908256203
+    second: tf_A5_ashlands_3_297
+  - first:
+      213: -7674967963909101547
+    second: tf_A5_ashlands_3_298
+  - first:
+      213: 1658094966969299136
+    second: tf_A5_ashlands_3_299
+  - first:
+      213: -3265201313241726676
+    second: tf_A5_ashlands_3_300
+  - first:
+      213: -1206232453387782667
+    second: tf_A5_ashlands_3_301
+  - first:
+      213: 2315261227818990991
+    second: tf_A5_ashlands_3_302
+  - first:
+      213: 4515236387957166787
+    second: tf_A5_ashlands_3_303
+  - first:
+      213: -2515059346413367359
+    second: tf_A5_ashlands_3_304
+  - first:
+      213: 9128434685949283719
+    second: tf_A5_ashlands_3_305
+  - first:
+      213: -1888716321175554727
+    second: tf_A5_ashlands_3_306
+  - first:
+      213: -932464930614974727
+    second: tf_A5_ashlands_3_307
+  - first:
+      213: -5694631278369496163
+    second: tf_A5_ashlands_3_308
+  - first:
+      213: 8839149732262746304
+    second: tf_A5_ashlands_3_309
+  - first:
+      213: -3605315113406597752
+    second: tf_A5_ashlands_3_310
+  - first:
+      213: -6029420266629179285
+    second: tf_A5_ashlands_3_311
+  - first:
+      213: 2798804494615769926
+    second: tf_A5_ashlands_3_312
+  - first:
+      213: -5102648639999925884
+    second: tf_A5_ashlands_3_313
+  - first:
+      213: -6338624210021393422
+    second: tf_A5_ashlands_3_314
+  - first:
+      213: -7510923058995616456
+    second: tf_A5_ashlands_3_315
+  - first:
+      213: -4604831530207675647
+    second: tf_A5_ashlands_3_316
+  - first:
+      213: 3853631378970616259
+    second: tf_A5_ashlands_3_317
+  - first:
+      213: -3867439589506763126
+    second: tf_A5_ashlands_3_318
+  - first:
+      213: -2338389909424853771
+    second: tf_A5_ashlands_3_319
+  - first:
+      213: -1131109884916228163
+    second: tf_A5_ashlands_3_320
+  - first:
+      213: 3615308760533534331
+    second: tf_A5_ashlands_3_321
+  - first:
+      213: -3447477831629572049
+    second: tf_A5_ashlands_3_322
+  - first:
+      213: 2796585257796335925
+    second: tf_A5_ashlands_3_323
+  - first:
+      213: 4644651071301179796
+    second: tf_A5_ashlands_3_324
+  - first:
+      213: -54684653246123249
+    second: tf_A5_ashlands_3_325
+  - first:
+      213: -6534938881332671539
+    second: tf_A5_ashlands_3_326
+  - first:
+      213: -7350682223284763828
+    second: tf_A5_ashlands_3_327
+  - first:
+      213: -5718890519309442990
+    second: tf_A5_ashlands_3_328
+  - first:
+      213: -6069805638993902127
+    second: tf_A5_ashlands_3_329
+  - first:
+      213: -2584760110428087954
+    second: tf_A5_ashlands_3_330
+  - first:
+      213: -8411507787076973063
+    second: tf_A5_ashlands_3_331
+  - first:
+      213: 6196337970073341439
+    second: tf_A5_ashlands_3_332
+  - first:
+      213: 5189102363203678747
+    second: tf_A5_ashlands_3_333
+  - first:
+      213: 6801348533082803526
+    second: tf_A5_ashlands_3_334
+  - first:
+      213: 7842899122111692205
+    second: tf_A5_ashlands_3_335
+  - first:
+      213: 857748797558253559
+    second: tf_A5_ashlands_3_336
+  - first:
+      213: 1786302518347540976
+    second: tf_A5_ashlands_3_337
+  - first:
+      213: 2738579678874435274
+    second: tf_A5_ashlands_3_338
+  - first:
+      213: 7463988840144371283
+    second: tf_A5_ashlands_3_339
+  - first:
+      213: 2607600382457250908
+    second: tf_A5_ashlands_3_340
+  - first:
+      213: 6193147123946332053
+    second: tf_A5_ashlands_3_341
+  - first:
+      213: 4301961836041976494
+    second: tf_A5_ashlands_3_342
+  - first:
+      213: 6768090302644345769
+    second: tf_A5_ashlands_3_343
+  - first:
+      213: -3975611217741238512
+    second: tf_A5_ashlands_3_344
+  - first:
+      213: 4196441990268916580
+    second: tf_A5_ashlands_3_345
+  - first:
+      213: 4920606603392855495
+    second: tf_A5_ashlands_3_346
+  - first:
+      213: 861474555437884989
+    second: tf_A5_ashlands_3_347
+  - first:
+      213: -471478563563511004
+    second: tf_A5_ashlands_3_348
+  - first:
+      213: 3265801836801668595
+    second: tf_A5_ashlands_3_349
+  - first:
+      213: 720348052280098507
+    second: tf_A5_ashlands_3_350
+  - first:
+      213: -3642555670649353749
+    second: tf_A5_ashlands_3_351
+  - first:
+      213: -5232671372341460856
+    second: tf_A5_ashlands_3_352
+  - first:
+      213: 1633950490755680994
+    second: tf_A5_ashlands_3_353
+  - first:
+      213: -1876932358985620028
+    second: tf_A5_ashlands_3_354
+  - first:
+      213: -1509451304411694375
+    second: tf_A5_ashlands_3_355
+  - first:
+      213: -2039802223141108926
+    second: tf_A5_ashlands_3_356
+  - first:
+      213: -9198158319129477863
+    second: tf_A5_ashlands_3_357
+  - first:
+      213: 5196594366203680422
+    second: tf_A5_ashlands_3_358
+  - first:
+      213: -3506469161192161447
+    second: tf_A5_ashlands_3_359
+  - first:
+      213: -3801675220378844678
+    second: tf_A5_ashlands_3_360
+  - first:
+      213: 7035651461335057000
+    second: tf_A5_ashlands_3_361
+  - first:
+      213: 2963278893982073192
+    second: tf_A5_ashlands_3_362
+  - first:
+      213: -8583859456320983942
+    second: tf_A5_ashlands_3_363
+  - first:
+      213: -1686160137191092197
+    second: tf_A5_ashlands_3_364
+  - first:
+      213: -8481053553289847710
+    second: tf_A5_ashlands_3_365
+  - first:
+      213: -2302181498743888304
+    second: tf_A5_ashlands_3_366
+  - first:
+      213: 2946343339648194053
+    second: tf_A5_ashlands_3_367
+  - first:
+      213: 1085943221232740000
+    second: tf_A5_ashlands_3_368
+  - first:
+      213: 665648885599097903
+    second: tf_A5_ashlands_3_369
+  - first:
+      213: -6267425305789087472
+    second: tf_A5_ashlands_3_370
+  - first:
+      213: -8140034322750649393
+    second: tf_A5_ashlands_3_371
+  - first:
+      213: 3655555183258023386
+    second: tf_A5_ashlands_3_372
+  - first:
+      213: -4769835950964797364
+    second: tf_A5_ashlands_3_373
+  - first:
+      213: -7650036754537378695
+    second: tf_A5_ashlands_3_374
+  - first:
+      213: 6531607326762355442
+    second: tf_A5_ashlands_3_375
+  - first:
+      213: -6806667593969218787
+    second: tf_A5_ashlands_3_376
+  - first:
+      213: 1045964529010531235
+    second: tf_A5_ashlands_3_377
+  - first:
+      213: 1014327261358489050
+    second: tf_A5_ashlands_3_378
+  - first:
+      213: -6411609461815919887
+    second: tf_A5_ashlands_3_379
+  - first:
+      213: 4286483615045889561
+    second: tf_A5_ashlands_3_380
+  - first:
+      213: 6324349265224685774
+    second: tf_A5_ashlands_3_381
+  - first:
+      213: -3905271484295842304
+    second: tf_A5_ashlands_3_382
+  - first:
+      213: 1389855499189195184
+    second: tf_A5_ashlands_3_383
+  - first:
+      213: 806975453781578358
+    second: tf_A5_ashlands_3_384
+  - first:
+      213: 8525708607562371243
+    second: tf_A5_ashlands_3_385
+  - first:
+      213: 981611325666812549
+    second: tf_A5_ashlands_3_386
+  - first:
+      213: -2726956213656606105
+    second: tf_A5_ashlands_3_387
+  - first:
+      213: 6582048328176440678
+    second: tf_A5_ashlands_3_388
+  - first:
+      213: -4381417490729261479
+    second: tf_A5_ashlands_3_389
+  - first:
+      213: -6734624604856478033
+    second: tf_A5_ashlands_3_390
+  - first:
+      213: 3246985329237684293
+    second: tf_A5_ashlands_3_391
+  - first:
+      213: -9109564989508667136
+    second: tf_A5_ashlands_3_392
+  - first:
+      213: 7058845700484676435
+    second: tf_A5_ashlands_3_393
+  - first:
+      213: 892733845892690846
+    second: tf_A5_ashlands_3_394
+  - first:
+      213: -6486114465911931693
+    second: tf_A5_ashlands_3_395
+  - first:
+      213: 5952711676491059279
+    second: tf_A5_ashlands_3_396
+  - first:
+      213: 1661351981858459398
+    second: tf_A5_ashlands_3_397
+  - first:
+      213: 804932845220419657
+    second: tf_A5_ashlands_3_398
+  - first:
+      213: -695226094028098504
+    second: tf_A5_ashlands_3_399
+  - first:
+      213: 2400399036532425859
+    second: tf_A5_ashlands_3_400
+  - first:
+      213: -5490172736313501049
+    second: tf_A5_ashlands_3_401
+  - first:
+      213: -3161358821602287576
+    second: tf_A5_ashlands_3_402
+  - first:
+      213: -4558568415596743548
+    second: tf_A5_ashlands_3_403
+  - first:
+      213: -978414603920257952
+    second: tf_A5_ashlands_3_404
+  - first:
+      213: -1191679151332886464
+    second: tf_A5_ashlands_3_405
+  - first:
+      213: 4001359718332285095
+    second: tf_A5_ashlands_3_406
+  - first:
+      213: 1622565514270171042
+    second: tf_A5_ashlands_3_407
+  - first:
+      213: 5240736644317462511
+    second: tf_A5_ashlands_3_408
+  - first:
+      213: -221556896951871256
+    second: tf_A5_ashlands_3_409
+  - first:
+      213: -6458705616150225601
+    second: tf_A5_ashlands_3_410
+  - first:
+      213: 7418704944411388259
+    second: tf_A5_ashlands_3_411
+  - first:
+      213: -4714161116826991493
+    second: tf_A5_ashlands_3_412
+  - first:
+      213: -766355814666488537
+    second: tf_A5_ashlands_3_413
+  - first:
+      213: 8404278012494731659
+    second: tf_A5_ashlands_3_414
+  - first:
+      213: -7649084805227098048
+    second: tf_A5_ashlands_3_415
+  - first:
+      213: 235836248799701409
+    second: tf_A5_ashlands_3_416
+  - first:
+      213: 9057130825857141628
+    second: tf_A5_ashlands_3_417
+  - first:
+      213: -7716715409745749852
+    second: tf_A5_ashlands_3_418
+  - first:
+      213: -7936604725280484837
+    second: tf_A5_ashlands_3_419
+  - first:
+      213: 6967565833738138775
+    second: tf_A5_ashlands_3_420
+  - first:
+      213: -8374410563789585032
+    second: tf_A5_ashlands_3_421
+  - first:
+      213: 6650661614754244134
+    second: tf_A5_ashlands_3_422
+  - first:
+      213: -2083312104211690699
+    second: tf_A5_ashlands_3_423
+  - first:
+      213: 7065319637124724656
+    second: tf_A5_ashlands_3_424
+  - first:
+      213: 4987158902754083712
+    second: tf_A5_ashlands_3_425
+  - first:
+      213: -2811027122536551872
+    second: tf_A5_ashlands_3_426
+  - first:
+      213: 8586630725665041618
+    second: tf_A5_ashlands_3_427
+  - first:
+      213: 8693016298685572195
+    second: tf_A5_ashlands_3_428
+  - first:
+      213: -7378978676928585165
+    second: tf_A5_ashlands_3_429
+  - first:
+      213: 5733673354562254973
+    second: tf_A5_ashlands_3_430
+  - first:
+      213: 5057184998795609982
+    second: tf_A5_ashlands_3_431
+  - first:
+      213: 7883511304655140043
+    second: tf_A5_ashlands_3_432
+  - first:
+      213: 5058567928617893614
+    second: tf_A5_ashlands_3_433
+  - first:
+      213: -3597304394758352905
+    second: tf_A5_ashlands_3_434
+  - first:
+      213: -8047273066160874484
+    second: tf_A5_ashlands_3_435
+  - first:
+      213: -904577971852078003
+    second: tf_A5_ashlands_3_436
+  - first:
+      213: 1675766592801182113
+    second: tf_A5_ashlands_3_437
+  - first:
+      213: -1207516269817729870
+    second: tf_A5_ashlands_3_438
+  - first:
+      213: -4284489673961442196
+    second: tf_A5_ashlands_3_439
+  - first:
+      213: 6334177780771216751
+    second: tf_A5_ashlands_3_440
+  - first:
+      213: -1951889409456968258
+    second: tf_A5_ashlands_3_441
+  - first:
+      213: 2924418031569321587
+    second: tf_A5_ashlands_3_442
+  - first:
+      213: -3179863767809327470
+    second: tf_A5_ashlands_3_443
+  - first:
+      213: -2679458513337742832
+    second: tf_A5_ashlands_3_444
+  - first:
+      213: -6860978450899068178
+    second: tf_A5_ashlands_3_445
+  - first:
+      213: -1043981514704244529
+    second: tf_A5_ashlands_3_446
+  - first:
+      213: -7527414000044656079
+    second: tf_A5_ashlands_3_447
+  - first:
+      213: -6429531560244724991
+    second: tf_A5_ashlands_3_448
+  - first:
+      213: -9015837630449478123
+    second: tf_A5_ashlands_3_449
+  - first:
+      213: 4332719515422773311
+    second: tf_A5_ashlands_3_450
+  - first:
+      213: 2925594026774487090
+    second: tf_A5_ashlands_3_451
+  - first:
+      213: -3679046240244893807
+    second: tf_A5_ashlands_3_452
+  - first:
+      213: 8108043598961403276
+    second: tf_A5_ashlands_3_453
+  - first:
+      213: 3476752985182195594
+    second: tf_A5_ashlands_3_454
+  - first:
+      213: 3178904872843236358
+    second: tf_A5_ashlands_3_455
+  - first:
+      213: -7728974985401625397
+    second: tf_A5_ashlands_3_456
+  - first:
+      213: -3220456376316786983
+    second: tf_A5_ashlands_3_457
+  - first:
+      213: -4550843142844384118
+    second: tf_A5_ashlands_3_458
+  - first:
+      213: -958388374303341094
+    second: tf_A5_ashlands_3_459
+  - first:
+      213: 2176789838788701374
+    second: tf_A5_ashlands_3_460
+  - first:
+      213: -375262402491607795
+    second: tf_A5_ashlands_3_461
+  - first:
+      213: 6097388168082671487
+    second: tf_A5_ashlands_3_462
+  - first:
+      213: 4259099980794955494
+    second: tf_A5_ashlands_3_463
+  - first:
+      213: -4704927638298735747
+    second: tf_A5_ashlands_3_464
+  - first:
+      213: -4829533648088699319
+    second: tf_A5_ashlands_3_465
+  - first:
+      213: -1185317135436898193
+    second: tf_A5_ashlands_3_466
+  - first:
+      213: 1209763607004833695
+    second: tf_A5_ashlands_3_467
+  - first:
+      213: -1083690084293596744
+    second: tf_A5_ashlands_3_468
+  - first:
+      213: -8415849547357888931
+    second: tf_A5_ashlands_3_469
+  - first:
+      213: -7978857688455788901
+    second: tf_A5_ashlands_3_470
+  - first:
+      213: 4954218011189842567
+    second: tf_A5_ashlands_3_471
+  - first:
+      213: 3944738139112572808
+    second: tf_A5_ashlands_3_472
+  - first:
+      213: 4817954722530274303
+    second: tf_A5_ashlands_3_473
+  - first:
+      213: 1724476158445716744
+    second: tf_A5_ashlands_3_474
+  - first:
+      213: -7491621179544521843
+    second: tf_A5_ashlands_3_475
+  - first:
+      213: 1648149248445832376
+    second: tf_A5_ashlands_3_476
+  - first:
+      213: -8988194870417358753
+    second: tf_A5_ashlands_3_477
+  - first:
+      213: -4954132862562752534
+    second: tf_A5_ashlands_3_478
+  - first:
+      213: -7504493395856120964
+    second: tf_A5_ashlands_3_479
+  - first:
+      213: 1978425235339749411
+    second: tf_A5_ashlands_3_480
+  - first:
+      213: -8346890006621950392
+    second: tf_A5_ashlands_3_481
+  - first:
+      213: 4288389666018860016
+    second: tf_A5_ashlands_3_482
+  - first:
+      213: -2767729085202358280
+    second: tf_A5_ashlands_3_483
+  - first:
+      213: -2179582498216667768
+    second: tf_A5_ashlands_3_484
+  - first:
+      213: 8758133395643755732
+    second: tf_A5_ashlands_3_485
+  - first:
+      213: -2636939331026942466
+    second: tf_A5_ashlands_3_486
+  - first:
+      213: 4711343286701892776
+    second: tf_A5_ashlands_3_487
+  - first:
+      213: -3350186001595301593
+    second: tf_A5_ashlands_3_488
+  - first:
+      213: 4778003050017630249
+    second: tf_A5_ashlands_3_489
+  - first:
+      213: 1467103207503434291
+    second: tf_A5_ashlands_3_490
+  - first:
+      213: 7035649560549806214
+    second: tf_A5_ashlands_3_491
+  - first:
+      213: -2370829140811890828
+    second: tf_A5_ashlands_3_492
+  - first:
+      213: -9164047664782455930
+    second: tf_A5_ashlands_3_493
+  - first:
+      213: -3964861068473906776
+    second: tf_A5_ashlands_3_494
+  - first:
+      213: 3781266205549510951
+    second: tf_A5_ashlands_3_495
+  - first:
+      213: -3632213313164853471
+    second: tf_A5_ashlands_3_496
+  - first:
+      213: -3352681925070398880
+    second: tf_A5_ashlands_3_497
+  - first:
+      213: 2643432818630290364
+    second: tf_A5_ashlands_3_498
+  - first:
+      213: -2730820040441093956
+    second: tf_A5_ashlands_3_499
+  - first:
+      213: 6518753297796756255
+    second: tf_A5_ashlands_3_500
+  - first:
+      213: -5542434303783240114
+    second: tf_A5_ashlands_3_501
+  - first:
+      213: -4612300088797627524
+    second: tf_A5_ashlands_3_502
+  - first:
+      213: 1283197961404088945
+    second: tf_A5_ashlands_3_503
+  - first:
+      213: 1947211933309913207
+    second: tf_A5_ashlands_3_504
+  - first:
+      213: 5021757778659752540
+    second: tf_A5_ashlands_3_505
+  - first:
+      213: -1254811071511176251
+    second: tf_A5_ashlands_3_506
+  - first:
+      213: 929821483513271891
+    second: tf_A5_ashlands_3_507
+  - first:
+      213: 7012529757014325323
+    second: tf_A5_ashlands_3_508
+  - first:
+      213: 7226445460457321426
+    second: tf_A5_ashlands_3_509
+  - first:
+      213: 6170678344151230370
+    second: tf_A5_ashlands_3_510
+  - first:
+      213: -1047668456799013161
+    second: tf_A5_ashlands_3_511
+  - first:
+      213: -7243414273469232660
+    second: tf_A5_ashlands_3_512
+  - first:
+      213: -7160291764616052287
+    second: tf_A5_ashlands_3_513
+  - first:
+      213: 7471474898450112860
+    second: tf_A5_ashlands_3_514
+  - first:
+      213: -3700440052655732883
+    second: tf_A5_ashlands_3_515
+  - first:
+      213: -3800581585689438626
+    second: tf_A5_ashlands_3_516
+  - first:
+      213: -2393979943424552376
+    second: tf_A5_ashlands_3_517
+  - first:
+      213: -402115256680773933
+    second: tf_A5_ashlands_3_518
+  - first:
+      213: -5131483476089415095
+    second: tf_A5_ashlands_3_519
+  - first:
+      213: -2000910589395464906
+    second: tf_A5_ashlands_3_520
+  - first:
+      213: -7667893787894128105
+    second: tf_A5_ashlands_3_521
+  - first:
+      213: -3725768297904211657
+    second: tf_A5_ashlands_3_522
+  - first:
+      213: 4220131808434631346
+    second: tf_A5_ashlands_3_523
+  - first:
+      213: -5283314558493320803
+    second: tf_A5_ashlands_3_524
+  - first:
+      213: -4039147169651784089
+    second: tf_A5_ashlands_3_525
+  - first:
+      213: 5230238534116312528
+    second: tf_A5_ashlands_3_526
+  - first:
+      213: -1022504528345279228
+    second: tf_A5_ashlands_3_527
+  - first:
+      213: -6356853813093291935
+    second: tf_A5_ashlands_3_528
+  - first:
+      213: 8773178106549569571
+    second: tf_A5_ashlands_3_529
+  - first:
+      213: 9186481815224961597
+    second: tf_A5_ashlands_3_530
+  - first:
+      213: -6273456800786456743
+    second: tf_A5_ashlands_3_531
+  - first:
+      213: 448404098967765846
+    second: tf_A5_ashlands_3_532
+  - first:
+      213: 5153196303349656846
+    second: tf_A5_ashlands_3_533
+  - first:
+      213: -6315880324158421271
+    second: tf_A5_ashlands_3_534
+  - first:
+      213: 8401281052860596421
+    second: tf_A5_ashlands_3_535
+  - first:
+      213: -5091875655235007445
+    second: tf_A5_ashlands_3_536
+  - first:
+      213: -1363330260094086745
+    second: tf_A5_ashlands_3_537
+  - first:
+      213: -1664401948206309973
+    second: tf_A5_ashlands_3_538
+  - first:
+      213: -7717389637763971085
+    second: tf_A5_ashlands_3_539
+  - first:
+      213: 4559373806576897164
+    second: tf_A5_ashlands_3_540
+  - first:
+      213: -777456744513495356
+    second: tf_A5_ashlands_3_541
+  - first:
+      213: 7195873634624671333
+    second: tf_A5_ashlands_3_542
+  - first:
+      213: -5693717038715509323
+    second: tf_A5_ashlands_3_543
+  - first:
+      213: -8079026641579771422
+    second: tf_A5_ashlands_3_544
+  - first:
+      213: 3492905936425955879
+    second: tf_A5_ashlands_3_545
+  - first:
+      213: -8810712340592612677
+    second: tf_A5_ashlands_3_546
+  - first:
+      213: 3758053077999702542
+    second: tf_A5_ashlands_3_547
+  - first:
+      213: 8086278751304543419
+    second: tf_A5_ashlands_3_548
+  - first:
+      213: -5354892367532330543
+    second: tf_A5_ashlands_3_549
+  - first:
+      213: -3146003628356423789
+    second: tf_A5_ashlands_3_550
+  - first:
+      213: 3685848074922889022
+    second: tf_A5_ashlands_3_551
+  - first:
+      213: -760447586873229294
+    second: tf_A5_ashlands_3_552
+  - first:
+      213: 8240825165105540828
+    second: tf_A5_ashlands_3_553
+  - first:
+      213: -4260600141576430884
+    second: tf_A5_ashlands_3_554
+  - first:
+      213: 4072507927110882983
+    second: tf_A5_ashlands_3_555
+  - first:
+      213: -8666002761035340196
+    second: tf_A5_ashlands_3_556
+  - first:
+      213: 2616219591971910716
+    second: tf_A5_ashlands_3_557
+  - first:
+      213: -4244418638659931966
+    second: tf_A5_ashlands_3_558
+  - first:
+      213: 7843377818571270496
+    second: tf_A5_ashlands_3_559
+  - first:
+      213: -8134700296198467169
+    second: tf_A5_ashlands_3_560
+  - first:
+      213: 2780371023690008224
+    second: tf_A5_ashlands_3_561
+  - first:
+      213: -7944081831823908974
+    second: tf_A5_ashlands_3_562
+  - first:
+      213: -6620785828738270667
+    second: tf_A5_ashlands_3_563
+  - first:
+      213: 6168729439102587626
+    second: tf_A5_ashlands_3_564
+  - first:
+      213: 3482059921957690434
+    second: tf_A5_ashlands_3_565
+  - first:
+      213: -2593200503290940867
+    second: tf_A5_ashlands_3_566
+  - first:
+      213: -700056189451047435
+    second: tf_A5_ashlands_3_567
+  - first:
+      213: -7769516146132097516
+    second: tf_A5_ashlands_3_568
+  - first:
+      213: -3568242044761665592
+    second: tf_A5_ashlands_3_569
+  - first:
+      213: 3109300609228141469
+    second: tf_A5_ashlands_3_570
+  - first:
+      213: 8639578109195578943
+    second: tf_A5_ashlands_3_571
+  - first:
+      213: -1393080945166126908
+    second: tf_A5_ashlands_3_572
+  - first:
+      213: 2933432493836124183
+    second: tf_A5_ashlands_3_573
+  - first:
+      213: -3884884261779184657
+    second: tf_A5_ashlands_3_574
+  - first:
+      213: -3769434474956706528
+    second: tf_A5_ashlands_3_575
+  - first:
+      213: -5440053903048889341
+    second: tf_A5_ashlands_3_576
+  - first:
+      213: 7092886406536165599
+    second: tf_A5_ashlands_3_577
+  - first:
+      213: 8241834059931797742
+    second: tf_A5_ashlands_3_578
+  - first:
+      213: -4533411187014625787
+    second: tf_A5_ashlands_3_579
+  - first:
+      213: -3574050225605463782
+    second: tf_A5_ashlands_3_580
+  - first:
+      213: -4226087538207689974
+    second: tf_A5_ashlands_3_581
+  - first:
+      213: -7693506286110212905
+    second: tf_A5_ashlands_3_582
+  - first:
+      213: 1236858009695564326
+    second: tf_A5_ashlands_3_583
+  - first:
+      213: 6234732560137280653
+    second: tf_A5_ashlands_3_584
+  - first:
+      213: 1084726414316882031
+    second: tf_A5_ashlands_3_585
+  - first:
+      213: -187238485946369153
+    second: tf_A5_ashlands_3_586
+  - first:
+      213: 62014616405808664
+    second: tf_A5_ashlands_3_587
+  - first:
+      213: 511345933518537806
+    second: tf_A5_ashlands_3_588
+  - first:
+      213: 1319014523853703247
+    second: tf_A5_ashlands_3_589
+  - first:
+      213: 1013238016167496717
+    second: tf_A5_ashlands_3_590
+  - first:
+      213: -6628034117439726963
+    second: tf_A5_ashlands_3_591
+  - first:
+      213: 7384870957386662086
+    second: tf_A5_ashlands_3_592
+  - first:
+      213: -109681255290476994
+    second: tf_A5_ashlands_3_593
+  - first:
+      213: 941290165221265502
+    second: tf_A5_ashlands_3_594
+  - first:
+      213: 364685434175484671
+    second: tf_A5_ashlands_3_595
+  - first:
+      213: 3639464539004282021
+    second: tf_A5_ashlands_3_596
+  - first:
+      213: 3044492739007580896
+    second: tf_A5_ashlands_3_597
+  - first:
+      213: -4339209579908206334
+    second: tf_A5_ashlands_3_598
+  - first:
+      213: 5732050758550546589
+    second: tf_A5_ashlands_3_599
+  - first:
+      213: -2888260051994425982
+    second: tf_A5_ashlands_3_600
+  - first:
+      213: 7239892266602769521
+    second: tf_A5_ashlands_3_601
+  - first:
+      213: 4079811420740597370
+    second: tf_A5_ashlands_3_602
+  - first:
+      213: -1293019627438562477
+    second: tf_A5_ashlands_3_603
+  - first:
+      213: 1527260218567575031
+    second: tf_A5_ashlands_3_604
+  - first:
+      213: 8356036344069333658
+    second: tf_A5_ashlands_3_605
+  - first:
+      213: -3105904265720949562
+    second: tf_A5_ashlands_3_606
+  - first:
+      213: -2033109042037767400
+    second: tf_A5_ashlands_3_607
+  - first:
+      213: -8337859775829522556
+    second: tf_A5_ashlands_3_608
+  - first:
+      213: 1031523633617761773
+    second: tf_A5_ashlands_3_609
+  - first:
+      213: -5846421188180341164
+    second: tf_A5_ashlands_3_610
+  - first:
+      213: 6629409889498361796
+    second: tf_A5_ashlands_3_611
+  - first:
+      213: 3327789543899168855
+    second: tf_A5_ashlands_3_612
+  - first:
+      213: 1832517732855570272
+    second: tf_A5_ashlands_3_613
+  - first:
+      213: -1619131256843781460
+    second: tf_A5_ashlands_3_614
+  - first:
+      213: 1346183540098601116
+    second: tf_A5_ashlands_3_615
+  - first:
+      213: 6250375017178034250
+    second: tf_A5_ashlands_3_616
+  - first:
+      213: -1663817037177618131
+    second: tf_A5_ashlands_3_617
+  - first:
+      213: 411849068730481711
+    second: tf_A5_ashlands_3_618
+  - first:
+      213: -1457633720159679303
+    second: tf_A5_ashlands_3_619
+  - first:
+      213: -4108378233798223869
+    second: tf_A5_ashlands_3_620
+  - first:
+      213: -4543910300265824510
+    second: tf_A5_ashlands_3_621
+  - first:
+      213: 4845520834890377808
+    second: tf_A5_ashlands_3_622
+  - first:
+      213: 4821821289560344772
+    second: tf_A5_ashlands_3_623
+  - first:
+      213: -3664158450980154559
+    second: tf_A5_ashlands_3_624
+  - first:
+      213: 3833238254267145571
+    second: tf_A5_ashlands_3_625
+  - first:
+      213: 7807050333173842445
+    second: tf_A5_ashlands_3_626
+  - first:
+      213: -1582793060496877865
+    second: tf_A5_ashlands_3_627
+  - first:
+      213: -9134097789722805473
+    second: tf_A5_ashlands_3_628
+  - first:
+      213: -6059988291623423996
+    second: tf_A5_ashlands_3_629
+  - first:
+      213: -9137114832880540708
+    second: tf_A5_ashlands_3_630
+  - first:
+      213: 34081333699240301
+    second: tf_A5_ashlands_3_631
+  - first:
+      213: 6032541723406736570
+    second: tf_A5_ashlands_3_632
+  - first:
+      213: -2746899125173955056
+    second: tf_A5_ashlands_3_633
+  - first:
+      213: -7163377750186480661
+    second: tf_A5_ashlands_3_634
+  - first:
+      213: -3408594706141342919
+    second: tf_A5_ashlands_3_635
+  - first:
+      213: -5459926353761751778
+    second: tf_A5_ashlands_3_636
+  - first:
+      213: -7170434173826575460
+    second: tf_A5_ashlands_3_637
+  - first:
+      213: -7574480679122202694
+    second: tf_A5_ashlands_3_638
+  - first:
+      213: -7243689820631472807
+    second: tf_A5_ashlands_3_639
+  - first:
+      213: 3332105816592891298
+    second: tf_A5_ashlands_3_640
+  - first:
+      213: 1903643170908498513
+    second: tf_A5_ashlands_3_641
+  - first:
+      213: -356920499550611320
+    second: tf_A5_ashlands_3_642
+  - first:
+      213: -6817370785015426396
+    second: tf_A5_ashlands_3_643
+  - first:
+      213: -763408548419139284
+    second: tf_A5_ashlands_3_644
+  - first:
+      213: -8680549314931304098
+    second: tf_A5_ashlands_3_645
+  - first:
+      213: 3731158502522766562
+    second: tf_A5_ashlands_3_646
+  - first:
+      213: -4140993515744387826
+    second: tf_A5_ashlands_3_647
+  - first:
+      213: -6257398756240040208
+    second: tf_A5_ashlands_3_648
+  - first:
+      213: 5068241335377118886
+    second: tf_A5_ashlands_3_649
+  - first:
+      213: -5177318378209761640
+    second: tf_A5_ashlands_3_650
+  - first:
+      213: -1476943304445520996
+    second: tf_A5_ashlands_3_651
+  - first:
+      213: 5969952992621202876
+    second: tf_A5_ashlands_3_652
+  - first:
+      213: 2612401106503780084
+    second: tf_A5_ashlands_3_653
+  - first:
+      213: 5789942808793159501
+    second: tf_A5_ashlands_3_654
+  - first:
+      213: -7995542251652175505
+    second: tf_A5_ashlands_3_655
+  - first:
+      213: -4559948057638716601
+    second: tf_A5_ashlands_3_656
+  - first:
+      213: 3320150653862839137
+    second: tf_A5_ashlands_3_657
+  - first:
+      213: 7893056117803761627
+    second: tf_A5_ashlands_3_658
+  - first:
+      213: 4391068944401549032
+    second: tf_A5_ashlands_3_659
+  - first:
+      213: 3011804310827383618
+    second: tf_A5_ashlands_3_660
+  - first:
+      213: 5992365865056240291
+    second: tf_A5_ashlands_3_661
+  - first:
+      213: -6740344372317023412
+    second: tf_A5_ashlands_3_662
+  - first:
+      213: -8912431554517662422
+    second: tf_A5_ashlands_3_663
+  - first:
+      213: 7806685105888572136
+    second: tf_A5_ashlands_3_664
+  - first:
+      213: 8271036448902331244
+    second: tf_A5_ashlands_3_665
+  - first:
+      213: 7032047938716302247
+    second: tf_A5_ashlands_3_666
+  - first:
+      213: -336995794013899374
+    second: tf_A5_ashlands_3_667
+  - first:
+      213: 1241145271087565691
+    second: tf_A5_ashlands_3_668
+  - first:
+      213: 7884324321220229374
+    second: tf_A5_ashlands_3_669
+  - first:
+      213: -7787756100302217451
+    second: tf_A5_ashlands_3_670
+  - first:
+      213: 9034159874954845930
+    second: tf_A5_ashlands_3_671
+  - first:
+      213: -5443509528459503919
+    second: tf_A5_ashlands_3_672
+  - first:
+      213: 4004355035386634340
+    second: tf_A5_ashlands_3_673
+  - first:
+      213: -7382165977685853746
+    second: tf_A5_ashlands_3_674
+  - first:
+      213: 1635964813657691342
+    second: tf_A5_ashlands_3_675
+  - first:
+      213: -2951930008937458102
+    second: tf_A5_ashlands_3_676
+  - first:
+      213: -7627424246351429585
+    second: tf_A5_ashlands_3_677
+  - first:
+      213: 1182983695117829997
+    second: tf_A5_ashlands_3_678
+  - first:
+      213: 2371521140438414129
+    second: tf_A5_ashlands_3_679
+  - first:
+      213: -1113256411286079092
+    second: tf_A5_ashlands_3_680
+  - first:
+      213: 4435809496124640196
+    second: tf_A5_ashlands_3_681
+  - first:
+      213: -6008743459305430743
+    second: tf_A5_ashlands_3_682
+  - first:
+      213: -2635161898334911530
+    second: tf_A5_ashlands_3_683
+  - first:
+      213: 8368683025957236124
+    second: tf_A5_ashlands_3_684
+  - first:
+      213: 8042964611875396402
+    second: tf_A5_ashlands_3_685
+  - first:
+      213: -2884900691023371495
+    second: tf_A5_ashlands_3_686
+  - first:
+      213: -5270663484314928763
+    second: tf_A5_ashlands_3_687
+  - first:
+      213: -4764919627361935374
+    second: tf_A5_ashlands_3_688
+  - first:
+      213: 2420986786007346112
+    second: tf_A5_ashlands_3_689
+  - first:
+      213: 6971604577789247127
+    second: tf_A5_ashlands_3_690
+  - first:
+      213: -3296034786901922122
+    second: tf_A5_ashlands_3_691
+  - first:
+      213: -1410912438742602398
+    second: tf_A5_ashlands_3_692
+  - first:
+      213: 8844475113004996884
+    second: tf_A5_ashlands_3_693
+  - first:
+      213: 8666621367012279685
+    second: tf_A5_ashlands_3_694
+  - first:
+      213: 3770476390835810844
+    second: tf_A5_ashlands_3_695
+  - first:
+      213: 4817288797374636660
+    second: tf_A5_ashlands_3_696
+  - first:
+      213: 1520231634478058569
+    second: tf_A5_ashlands_3_697
+  - first:
+      213: -4431827794829963208
+    second: tf_A5_ashlands_3_698
+  - first:
+      213: 4747568157647387848
+    second: tf_A5_ashlands_3_699
+  - first:
+      213: -6143897126095760356
+    second: tf_A5_ashlands_3_700
+  - first:
+      213: 567473499430461794
+    second: tf_A5_ashlands_3_701
+  - first:
+      213: 9057927024133425286
+    second: tf_A5_ashlands_3_702
+  - first:
+      213: 5762131651148200425
+    second: tf_A5_ashlands_3_703
+  - first:
+      213: -5241435791364662358
+    second: tf_A5_ashlands_3_704
+  - first:
+      213: 6647277406789312472
+    second: tf_A5_ashlands_3_705
+  - first:
+      213: -451374812073636019
+    second: tf_A5_ashlands_3_706
+  - first:
+      213: -3304217315121605225
+    second: tf_A5_ashlands_3_707
+  - first:
+      213: 90201395651113527
+    second: tf_A5_ashlands_3_708
+  - first:
+      213: 2410320228037697567
+    second: tf_A5_ashlands_3_709
+  - first:
+      213: 7429437380910377307
+    second: tf_A5_ashlands_3_710
+  - first:
+      213: 5725797344773245055
+    second: tf_A5_ashlands_3_711
+  - first:
+      213: -7914988552653640116
+    second: tf_A5_ashlands_3_712
+  - first:
+      213: 3667756108553526394
+    second: tf_A5_ashlands_3_713
+  - first:
+      213: -8017594910815935708
+    second: tf_A5_ashlands_3_714
+  - first:
+      213: -242240052819263748
+    second: tf_A5_ashlands_3_715
+  - first:
+      213: -83259123703350178
+    second: tf_A5_ashlands_3_716
+  - first:
+      213: 5535622151569250712
+    second: tf_A5_ashlands_3_717
+  - first:
+      213: -1782351259349635611
+    second: tf_A5_ashlands_3_718
+  - first:
+      213: -5878186975276569488
+    second: tf_A5_ashlands_3_719
+  - first:
+      213: -5438823262894173461
+    second: tf_A5_ashlands_3_720
+  - first:
+      213: 5734986334033112161
+    second: tf_A5_ashlands_3_721
+  - first:
+      213: -2259576146012448434
+    second: tf_A5_ashlands_3_722
+  - first:
+      213: -5536303966384078623
+    second: tf_A5_ashlands_3_723
+  - first:
+      213: -5249164168473260640
+    second: tf_A5_ashlands_3_724
+  - first:
+      213: -6173913899506654203
+    second: tf_A5_ashlands_3_725
+  - first:
+      213: 3026572545791182169
+    second: tf_A5_ashlands_3_726
+  - first:
+      213: -3588010994427707025
+    second: tf_A5_ashlands_3_727
+  - first:
+      213: -6965537411893783794
+    second: tf_A5_ashlands_3_728
+  - first:
+      213: 6122285481223980503
+    second: tf_A5_ashlands_3_729
+  - first:
+      213: -5585229554072281696
+    second: tf_A5_ashlands_3_730
+  - first:
+      213: 4149903201259190915
+    second: tf_A5_ashlands_3_731
+  - first:
+      213: -568521895847248254
+    second: tf_A5_ashlands_3_732
+  - first:
+      213: -9045926457545661865
+    second: tf_A5_ashlands_3_733
+  - first:
+      213: 3707092160788764090
+    second: tf_A5_ashlands_3_734
+  - first:
+      213: -3528706764144829083
+    second: tf_A5_ashlands_3_735
+  - first:
+      213: -5202530300188151121
+    second: tf_A5_ashlands_3_736
+  - first:
+      213: 5587937609154227892
+    second: tf_A5_ashlands_3_737
+  - first:
+      213: -2531395273501884093
+    second: tf_A5_ashlands_3_738
+  - first:
+      213: 5848809630802053804
+    second: tf_A5_ashlands_3_739
+  - first:
+      213: 5088414868247809615
+    second: tf_A5_ashlands_3_740
+  - first:
+      213: 6050840741323077381
+    second: tf_A5_ashlands_3_741
+  - first:
+      213: -7112641147904215140
+    second: tf_A5_ashlands_3_742
+  - first:
+      213: -7755283554392968925
+    second: tf_A5_ashlands_3_743
+  - first:
+      213: 3282542139172127189
+    second: tf_A5_ashlands_3_744
+  - first:
+      213: -7994069917548953993
+    second: tf_A5_ashlands_3_745
+  - first:
+      213: -1296387618739533674
+    second: tf_A5_ashlands_3_746
+  - first:
+      213: -6708078316501502833
+    second: tf_A5_ashlands_3_747
+  - first:
+      213: 2396562428631378306
+    second: tf_A5_ashlands_3_748
+  - first:
+      213: -1150625191118644918
+    second: tf_A5_ashlands_3_749
+  - first:
+      213: 8229900140749722238
+    second: tf_A5_ashlands_3_750
+  - first:
+      213: 2160874825330949693
+    second: tf_A5_ashlands_3_751
+  - first:
+      213: -5752408586881460947
+    second: tf_A5_ashlands_3_752
+  - first:
+      213: 7128097816285312502
+    second: tf_A5_ashlands_3_753
+  - first:
+      213: -1283544019118342558
+    second: tf_A5_ashlands_3_754
+  - first:
+      213: -4547067705168342975
+    second: tf_A5_ashlands_3_755
+  - first:
+      213: -7015306706845575959
+    second: tf_A5_ashlands_3_756
+  - first:
+      213: -2616692602071386045
+    second: tf_A5_ashlands_3_757
+  - first:
+      213: 4069803078306655686
+    second: tf_A5_ashlands_3_758
+  - first:
+      213: -4508559991316135298
+    second: tf_A5_ashlands_3_759
+  - first:
+      213: 5723917983939072544
+    second: tf_A5_ashlands_3_760
+  - first:
+      213: -3347638111733627766
+    second: tf_A5_ashlands_3_761
+  - first:
+      213: 6757057450279046368
+    second: tf_A5_ashlands_3_762
+  - first:
+      213: -8075553525116028697
+    second: tf_A5_ashlands_3_763
+  - first:
+      213: -4063742136787919929
+    second: tf_A5_ashlands_3_764
+  - first:
+      213: -3492654418408038385
+    second: tf_A5_ashlands_3_765
+  - first:
+      213: 7470268936000678096
+    second: tf_A5_ashlands_3_766
+  - first:
+      213: -1418861625535216881
+    second: tf_A5_ashlands_3_767
+  - first:
+      213: -4197929083706047949
+    second: tf_A5_ashlands_3_768
+  - first:
+      213: -7415206084703581227
+    second: tf_A5_ashlands_3_769
+  - first:
+      213: -8799125259539734691
+    second: tf_A5_ashlands_3_770
+  - first:
+      213: -2877106317789027869
+    second: tf_A5_ashlands_3_771
+  - first:
+      213: 1300078065326838672
+    second: tf_A5_ashlands_3_772
+  - first:
+      213: 6203142610263468612
+    second: tf_A5_ashlands_3_773
+  - first:
+      213: -6551555986877205722
+    second: tf_A5_ashlands_3_774
+  - first:
+      213: 3051044193610591942
+    second: tf_A5_ashlands_3_775
+  - first:
+      213: 6175375888147614232
+    second: tf_A5_ashlands_3_776
+  - first:
+      213: -8009583046306805198
+    second: tf_A5_ashlands_3_777
+  - first:
+      213: 6116225081875167130
+    second: tf_A5_ashlands_3_778
+  - first:
+      213: 1111393522314960635
+    second: tf_A5_ashlands_3_779
+  - first:
+      213: 5933703381217777640
+    second: tf_A5_ashlands_3_780
+  - first:
+      213: -3284396058052540289
+    second: tf_A5_ashlands_3_781
+  - first:
+      213: 2906173598768143952
+    second: tf_A5_ashlands_3_782
+  - first:
+      213: 2875297936179516804
+    second: tf_A5_ashlands_3_783
+  - first:
+      213: -232126640296471999
+    second: tf_A5_ashlands_3_784
+  - first:
+      213: 5756136759048870591
+    second: tf_A5_ashlands_3_785
+  - first:
+      213: -4381103363486298035
+    second: tf_A5_ashlands_3_786
+  - first:
+      213: -4129918834570414667
+    second: tf_A5_ashlands_3_787
+  - first:
+      213: -247358833636049908
+    second: tf_A5_ashlands_3_788
+  - first:
+      213: 853689254357762742
+    second: tf_A5_ashlands_3_789
+  - first:
+      213: -5858939203600836996
+    second: tf_A5_ashlands_3_790
+  - first:
+      213: -4802109900515424605
+    second: tf_A5_ashlands_3_791
+  - first:
+      213: 5065835076452045835
+    second: tf_A5_ashlands_3_792
+  - first:
+      213: -7737694474498027623
+    second: tf_A5_ashlands_3_793
+  - first:
+      213: 238739523133174516
+    second: tf_A5_ashlands_3_794
+  - first:
+      213: 8140564047392332182
+    second: tf_A5_ashlands_3_795
+  - first:
+      213: 2010877126403037943
+    second: tf_A5_ashlands_3_796
+  - first:
+      213: -2631757768030546771
+    second: tf_A5_ashlands_3_797
+  - first:
+      213: -4124014326181752573
+    second: tf_A5_ashlands_3_798
+  - first:
+      213: -1136931718716457558
+    second: tf_A5_ashlands_3_799
+  - first:
+      213: 5327348543044410681
+    second: tf_A5_ashlands_3_800
+  - first:
+      213: -2192381362477648775
+    second: tf_A5_ashlands_3_801
+  - first:
+      213: 5188646417496651445
+    second: tf_A5_ashlands_3_802
+  - first:
+      213: -4914618482435953990
+    second: tf_A5_ashlands_3_803
+  - first:
+      213: 2907630243989190129
+    second: tf_A5_ashlands_3_804
+  - first:
+      213: 8816276783268118691
+    second: tf_A5_ashlands_3_805
+  - first:
+      213: -2114353462986966672
+    second: tf_A5_ashlands_3_806
+  - first:
+      213: -8397691852130963588
+    second: tf_A5_ashlands_3_807
+  - first:
+      213: -8381994182809119906
+    second: tf_A5_ashlands_3_808
+  - first:
+      213: 6440915174099181915
+    second: tf_A5_ashlands_3_809
+  - first:
+      213: 8953347618170414145
+    second: tf_A5_ashlands_3_810
+  - first:
+      213: -3389985820895468607
+    second: tf_A5_ashlands_3_811
+  - first:
+      213: -9219410624820356712
+    second: tf_A5_ashlands_3_812
+  - first:
+      213: -3352004336796706969
+    second: tf_A5_ashlands_3_813
+  - first:
+      213: 350982294461599810
+    second: tf_A5_ashlands_3_814
+  - first:
+      213: -5255549882519040675
+    second: tf_A5_ashlands_3_815
+  - first:
+      213: -1545598139045160762
+    second: tf_A5_ashlands_3_816
+  - first:
+      213: 2245235054444602767
+    second: tf_A5_ashlands_3_817
+  - first:
+      213: -2833388581582972661
+    second: tf_A5_ashlands_3_818
+  - first:
+      213: 3227388020076462519
+    second: tf_A5_ashlands_3_819
+  - first:
+      213: -5003629435646392639
+    second: tf_A5_ashlands_3_820
+  - first:
+      213: -4282532668410789223
+    second: tf_A5_ashlands_3_821
+  - first:
+      213: 3941274186014320239
+    second: tf_A5_ashlands_3_822
+  - first:
+      213: 8921461034908707861
+    second: tf_A5_ashlands_3_823
+  - first:
+      213: 6278764918038554521
+    second: tf_A5_ashlands_3_824
+  - first:
+      213: 2061797023685630720
+    second: tf_A5_ashlands_3_825
+  - first:
+      213: -5798127738950135725
+    second: tf_A5_ashlands_3_826
+  - first:
+      213: -5634447513048278413
+    second: tf_A5_ashlands_3_827
+  - first:
+      213: 6306923613108194852
+    second: tf_A5_ashlands_3_828
+  - first:
+      213: 742875769024505221
+    second: tf_A5_ashlands_3_829
+  - first:
+      213: -6706476627140618396
+    second: tf_A5_ashlands_3_830
+  - first:
+      213: 1981423806453001130
+    second: tf_A5_ashlands_3_831
+  - first:
+      213: -9089491867647471435
+    second: tf_A5_ashlands_3_832
+  - first:
+      213: 3946033167281484365
+    second: tf_A5_ashlands_3_833
+  - first:
+      213: 3943103365448758165
+    second: tf_A5_ashlands_3_834
+  - first:
+      213: -8091915269828451134
+    second: tf_A5_ashlands_3_835
+  - first:
+      213: -6552034110757544361
+    second: tf_A5_ashlands_3_836
+  - first:
+      213: 8310381505470349375
+    second: tf_A5_ashlands_3_837
+  - first:
+      213: -4416541980267555867
+    second: tf_A5_ashlands_3_838
+  - first:
+      213: 91336490292388212
+    second: tf_A5_ashlands_3_839
+  - first:
+      213: 3685766848122480712
+    second: tf_A5_ashlands_3_840
+  - first:
+      213: -6836430222636635478
+    second: tf_A5_ashlands_3_841
+  - first:
+      213: 1556253005955687180
+    second: tf_A5_ashlands_3_842
+  - first:
+      213: 2611924664685947806
+    second: tf_A5_ashlands_3_843
+  - first:
+      213: -1525667648910296000
+    second: tf_A5_ashlands_3_844
+  - first:
+      213: -3086252352796210197
+    second: tf_A5_ashlands_3_845
+  - first:
+      213: 33867519145780717
+    second: tf_A5_ashlands_3_846
+  - first:
+      213: -1691334727887934986
+    second: tf_A5_ashlands_3_847
+  - first:
+      213: 8689289262069383667
+    second: tf_A5_ashlands_3_848
+  - first:
+      213: -4404113186152538846
+    second: tf_A5_ashlands_3_849
+  - first:
+      213: 6004516380115021423
+    second: tf_A5_ashlands_3_850
+  - first:
+      213: -2751437680398494460
+    second: tf_A5_ashlands_3_851
+  - first:
+      213: -7380956219227071070
+    second: tf_A5_ashlands_3_852
+  - first:
+      213: 7313084892897307193
+    second: tf_A5_ashlands_3_853
+  - first:
+      213: 8153796785490551807
+    second: tf_A5_ashlands_3_854
+  - first:
+      213: 3836053041815916877
+    second: tf_A5_ashlands_3_855
+  - first:
+      213: 1827273783658067544
+    second: tf_A5_ashlands_3_856
+  - first:
+      213: -9160999489613273397
+    second: tf_A5_ashlands_3_857
+  - first:
+      213: 871468940826908091
+    second: tf_A5_ashlands_3_858
+  - first:
+      213: -9095115902427438676
+    second: tf_A5_ashlands_3_859
+  - first:
+      213: -2046902526117627113
+    second: tf_A5_ashlands_3_860
+  - first:
+      213: -3493005639178167302
+    second: tf_A5_ashlands_3_861
+  - first:
+      213: 2293059219142024961
+    second: tf_A5_ashlands_3_862
+  - first:
+      213: -6092529317038960705
+    second: tf_A5_ashlands_3_863
+  - first:
+      213: -1480325325945843873
+    second: tf_A5_ashlands_3_864
+  - first:
+      213: 4401888783353456403
+    second: tf_A5_ashlands_3_865
+  - first:
+      213: -5865928822923390506
+    second: tf_A5_ashlands_3_866
+  - first:
+      213: 2670470350023997964
+    second: tf_A5_ashlands_3_867
+  - first:
+      213: -4388044723465450414
+    second: tf_A5_ashlands_3_868
+  - first:
+      213: -2632774854421042108
+    second: tf_A5_ashlands_3_869
+  - first:
+      213: -2445756363976659318
+    second: tf_A5_ashlands_3_870
+  - first:
+      213: -3926214902583420146
+    second: tf_A5_ashlands_3_871
+  - first:
+      213: -1007115589456461118
+    second: tf_A5_ashlands_3_872
+  - first:
+      213: -4893624432940287379
+    second: tf_A5_ashlands_3_873
+  - first:
+      213: -7263604457690674093
+    second: tf_A5_ashlands_3_874
+  - first:
+      213: -8105903435366381793
+    second: tf_A5_ashlands_3_875
+  - first:
+      213: 4396558044125236092
+    second: tf_A5_ashlands_3_876
+  - first:
+      213: 136421482723276159
+    second: tf_A5_ashlands_3_877
+  - first:
+      213: -7048058297299361870
+    second: tf_A5_ashlands_3_878
+  - first:
+      213: 3412429817778701885
+    second: tf_A5_ashlands_3_879
+  - first:
+      213: 5291868413597342939
+    second: tf_A5_ashlands_3_880
+  - first:
+      213: 6052142535084879751
+    second: tf_A5_ashlands_3_881
+  - first:
+      213: -7146134689505794019
+    second: tf_A5_ashlands_3_882
+  - first:
+      213: -868553228677816281
+    second: tf_A5_ashlands_3_883
+  - first:
+      213: -7657337400009679932
+    second: tf_A5_ashlands_3_884
+  - first:
+      213: 1173445119354278412
+    second: tf_A5_ashlands_3_885
+  - first:
+      213: -1202083329680700569
+    second: tf_A5_ashlands_3_886
+  - first:
+      213: 6853958756742134846
+    second: tf_A5_ashlands_3_887
+  - first:
+      213: -676848268215785140
+    second: tf_A5_ashlands_3_888
+  - first:
+      213: 8980845464906528275
+    second: tf_A5_ashlands_3_889
+  - first:
+      213: -966441504772955004
+    second: tf_A5_ashlands_3_890
+  - first:
+      213: 22630510471675407
+    second: tf_A5_ashlands_3_891
+  - first:
+      213: -5637387860060799365
+    second: tf_A5_ashlands_3_892
+  - first:
+      213: 3775271610047613138
+    second: tf_A5_ashlands_3_893
+  - first:
+      213: -3573269090158629195
+    second: tf_A5_ashlands_3_894
+  - first:
+      213: 4565013867494953837
+    second: tf_A5_ashlands_3_895
+  - first:
+      213: -2829662764159456438
+    second: tf_A5_ashlands_3_896
+  - first:
+      213: 6804585335309896233
+    second: tf_A5_ashlands_3_897
+  - first:
+      213: -8987239778581497344
+    second: tf_A5_ashlands_3_898
+  - first:
+      213: 3674402062876359390
+    second: tf_A5_ashlands_3_899
+  - first:
+      213: 3237225559118422718
+    second: tf_A5_ashlands_3_900
+  - first:
+      213: 3521903433720246378
+    second: tf_A5_ashlands_3_901
+  - first:
+      213: 6731927699743289413
+    second: tf_A5_ashlands_3_902
+  - first:
+      213: -4804073285391592117
+    second: tf_A5_ashlands_3_903
+  - first:
+      213: -3920607577167873200
+    second: tf_A5_ashlands_3_904
+  - first:
+      213: -101541476088343985
+    second: tf_A5_ashlands_3_905
+  - first:
+      213: 208813975565297595
+    second: tf_A5_ashlands_3_906
+  - first:
+      213: -8423893972625880059
+    second: tf_A5_ashlands_3_907
+  - first:
+      213: -6431926603582549152
+    second: tf_A5_ashlands_3_908
+  - first:
+      213: 2303469048314764911
+    second: tf_A5_ashlands_3_909
+  - first:
+      213: -3330897512247374991
+    second: tf_A5_ashlands_3_910
+  - first:
+      213: -7175493707088199108
+    second: tf_A5_ashlands_3_911
+  - first:
+      213: 5594900534417522402
+    second: tf_A5_ashlands_3_912
+  - first:
+      213: 1706133381289846725
+    second: tf_A5_ashlands_3_913
+  - first:
+      213: -5905050506020450161
+    second: tf_A5_ashlands_3_914
+  - first:
+      213: 275224832339546178
+    second: tf_A5_ashlands_3_915
+  - first:
+      213: 6218516562330058548
+    second: tf_A5_ashlands_3_916
+  - first:
+      213: 5180785918409803860
+    second: tf_A5_ashlands_3_917
+  - first:
+      213: 5636345645310048763
+    second: tf_A5_ashlands_3_918
+  - first:
+      213: 537084644530087072
+    second: tf_A5_ashlands_3_919
+  - first:
+      213: -8842768715494314437
+    second: tf_A5_ashlands_3_920
+  - first:
+      213: -305741402371347000
+    second: tf_A5_ashlands_3_921
+  - first:
+      213: -6040656268058427244
+    second: tf_A5_ashlands_3_922
+  - first:
+      213: -7305840129967956886
+    second: tf_A5_ashlands_3_923
+  - first:
+      213: -2551531922734403460
+    second: tf_A5_ashlands_3_924
+  - first:
+      213: -2875563817948141796
+    second: tf_A5_ashlands_3_925
+  - first:
+      213: -1136980094352721057
+    second: tf_A5_ashlands_3_926
+  - first:
+      213: 1105049105803433236
+    second: tf_A5_ashlands_3_927
+  - first:
+      213: -3682770798365639013
+    second: tf_A5_ashlands_3_928
+  - first:
+      213: 3168951078285776857
+    second: tf_A5_ashlands_3_929
+  - first:
+      213: -2901624137825759781
+    second: tf_A5_ashlands_3_930
+  - first:
+      213: 4902234624827413536
+    second: tf_A5_ashlands_3_931
+  - first:
+      213: -3854452435310842209
+    second: tf_A5_ashlands_3_932
+  - first:
+      213: 4629766832888568826
+    second: tf_A5_ashlands_3_933
+  - first:
+      213: 5353682158781542133
+    second: tf_A5_ashlands_3_934
+  - first:
+      213: 5043607878961837561
+    second: tf_A5_ashlands_3_935
+  - first:
+      213: 4171910108675608668
+    second: tf_A5_ashlands_3_936
+  - first:
+      213: 2630742924614406601
+    second: tf_A5_ashlands_3_937
+  - first:
+      213: 1168334959266281073
+    second: tf_A5_ashlands_3_938
+  - first:
+      213: 2943411192381700412
+    second: tf_A5_ashlands_3_939
+  - first:
+      213: 7574863488776593523
+    second: tf_A5_ashlands_3_940
+  - first:
+      213: -495740475617648097
+    second: tf_A5_ashlands_3_941
+  - first:
+      213: 3439710035411574441
+    second: tf_A5_ashlands_3_942
+  - first:
+      213: -7965111528699548226
+    second: tf_A5_ashlands_3_943
+  - first:
+      213: -8719832273582110200
+    second: tf_A5_ashlands_3_944
+  - first:
+      213: -6878663864602231891
+    second: tf_A5_ashlands_3_945
+  - first:
+      213: 2191529237688445343
+    second: tf_A5_ashlands_3_946
+  - first:
+      213: 2535942155562553376
+    second: tf_A5_ashlands_3_947
+  - first:
+      213: -65866782586784483
+    second: tf_A5_ashlands_3_948
+  - first:
+      213: 8450400155431172790
+    second: tf_A5_ashlands_3_949
+  - first:
+      213: 1779032020233208681
+    second: tf_A5_ashlands_3_950
+  - first:
+      213: 6438999156671560984
+    second: tf_A5_ashlands_3_951
+  - first:
+      213: 1382464603911364885
+    second: tf_A5_ashlands_3_952
+  - first:
+      213: -1450364064379671932
+    second: tf_A5_ashlands_3_953
+  - first:
+      213: 7964997778210585470
+    second: tf_A5_ashlands_3_954
+  - first:
+      213: -1171149571364882266
+    second: tf_A5_ashlands_3_955
+  - first:
+      213: 7311726165617624511
+    second: tf_A5_ashlands_3_956
+  - first:
+      213: -2665454566050298296
+    second: tf_A5_ashlands_3_957
+  - first:
+      213: 8760521417814401857
+    second: tf_A5_ashlands_3_958
+  - first:
+      213: -1128459330250295527
+    second: tf_A5_ashlands_3_959
+  - first:
+      213: 2951547270524646565
+    second: tf_A5_ashlands_3_960
+  - first:
+      213: 2021064392502626724
+    second: tf_A5_ashlands_3_961
+  - first:
+      213: -3814022524309889852
+    second: tf_A5_ashlands_3_962
+  - first:
+      213: 1830964160868451261
+    second: tf_A5_ashlands_3_963
+  - first:
+      213: -9212661349713405208
+    second: tf_A5_ashlands_3_964
+  - first:
+      213: 777141889359648256
+    second: tf_A5_ashlands_3_965
+  - first:
+      213: -8933430825082210556
+    second: tf_A5_ashlands_3_966
+  - first:
+      213: -7174293934818492847
+    second: tf_A5_ashlands_3_967
+  - first:
+      213: 198356650293802547
+    second: tf_A5_ashlands_3_968
+  - first:
+      213: -956190050890792428
+    second: tf_A5_ashlands_3_969
+  - first:
+      213: 1530623063051701621
+    second: tf_A5_ashlands_3_970
+  - first:
+      213: 6072273682676340984
+    second: tf_A5_ashlands_3_971
+  - first:
+      213: 3089374512268463547
+    second: tf_A5_ashlands_3_972
+  - first:
+      213: -2132527074361815070
+    second: tf_A5_ashlands_3_973
+  - first:
+      213: -1730748472905339443
+    second: tf_A5_ashlands_3_974
+  - first:
+      213: -8621921454921072960
+    second: tf_A5_ashlands_3_975
+  - first:
+      213: 7361785195808114010
+    second: tf_A5_ashlands_3_976
+  - first:
+      213: 2110988506232601709
+    second: tf_A5_ashlands_3_977
+  - first:
+      213: -6861680391995433854
+    second: tf_A5_ashlands_3_978
+  - first:
+      213: -4877960697485921240
+    second: tf_A5_ashlands_3_979
+  - first:
+      213: 1752036619974486595
+    second: tf_A5_ashlands_3_980
+  - first:
+      213: 4555588923427280727
+    second: tf_A5_ashlands_3_981
+  - first:
+      213: -7375787084574411633
+    second: tf_A5_ashlands_3_982
+  - first:
+      213: -7245052105618154588
+    second: tf_A5_ashlands_3_983
+  - first:
+      213: -3449662053135117190
+    second: tf_A5_ashlands_3_984
+  - first:
+      213: -2586882438701826166
+    second: tf_A5_ashlands_3_985
+  - first:
+      213: -2780529829945493351
+    second: tf_A5_ashlands_3_986
+  - first:
+      213: -8183543344535851653
+    second: tf_A5_ashlands_3_987
+  - first:
+      213: -473471403999706557
+    second: tf_A5_ashlands_3_988
+  - first:
+      213: 1402792429558557019
+    second: tf_A5_ashlands_3_989
+  - first:
+      213: 1896003213895704200
+    second: tf_A5_ashlands_3_990
+  - first:
+      213: -57316487991232473
+    second: tf_A5_ashlands_3_991
+  - first:
+      213: -6172859086610557051
+    second: tf_A5_ashlands_3_992
+  - first:
+      213: -8019424338255295630
+    second: tf_A5_ashlands_3_993
+  - first:
+      213: 2536880537627013902
+    second: tf_A5_ashlands_3_994
+  - first:
+      213: -8875573886489020711
+    second: tf_A5_ashlands_3_995
+  - first:
+      213: 1544575454266002327
+    second: tf_A5_ashlands_3_996
+  - first:
+      213: -4353035557655067221
+    second: tf_A5_ashlands_3_997
+  - first:
+      213: 8055395411577956235
+    second: tf_A5_ashlands_3_998
+  - first:
+      213: -9143908926993822146
+    second: tf_A5_ashlands_3_999
+  - first:
+      213: -7249759631270455594
+    second: tf_A5_ashlands_3_1000
+  - first:
+      213: 5740361537710376544
+    second: tf_A5_ashlands_3_1001
+  - first:
+      213: -431350156705299288
+    second: tf_A5_ashlands_3_1002
+  - first:
+      213: 1323173418410340823
+    second: tf_A5_ashlands_3_1003
+  - first:
+      213: 6859619444555454799
+    second: tf_A5_ashlands_3_1004
+  - first:
+      213: 7411601063177976061
+    second: tf_A5_ashlands_3_1005
+  - first:
+      213: -1037427658363711335
+    second: tf_A5_ashlands_3_1006
+  - first:
+      213: -2295422264044037115
+    second: tf_A5_ashlands_3_1007
+  - first:
+      213: 6888102107188652859
+    second: tf_A5_ashlands_3_1008
+  - first:
+      213: 4113758711283848457
+    second: tf_A5_ashlands_3_1009
+  - first:
+      213: -8910549129996161269
+    second: tf_A5_ashlands_3_1010
+  - first:
+      213: 2104673903827382052
+    second: tf_A5_ashlands_3_1011
+  - first:
+      213: 2620895922564791798
+    second: tf_A5_ashlands_3_1012
+  - first:
+      213: -6186613930720105651
+    second: tf_A5_ashlands_3_1013
+  - first:
+      213: -1868547438802059164
+    second: tf_A5_ashlands_3_1014
+  - first:
+      213: -2717226292879361784
+    second: tf_A5_ashlands_3_1015
+  - first:
+      213: -1763911897054812375
+    second: tf_A5_ashlands_3_1016
+  - first:
+      213: -6466720039844309791
+    second: tf_A5_ashlands_3_1017
+  - first:
+      213: 944653967231340578
+    second: tf_A5_ashlands_3_1018
+  - first:
+      213: -241707506156836904
+    second: tf_A5_ashlands_3_1019
+  - first:
+      213: -7603925108558566118
+    second: tf_A5_ashlands_3_1020
+  - first:
+      213: -4276765031709671081
+    second: tf_A5_ashlands_3_1021
+  - first:
+      213: -8194279566880913289
+    second: tf_A5_ashlands_3_1022
+  - first:
+      213: 8147581893170718007
+    second: tf_A5_ashlands_3_1023
+  - first:
+      213: -57470400815647771
+    second: tf_A5_ashlands_3_1024
+  - first:
+      213: -4061291626848276496
+    second: tf_A5_ashlands_3_1025
+  - first:
+      213: 2746501636743000128
+    second: tf_A5_ashlands_3_1026
+  - first:
+      213: -5535493099497556761
+    second: tf_A5_ashlands_3_1027
+  - first:
+      213: -5279483799455565226
+    second: tf_A5_ashlands_3_1028
+  - first:
+      213: 4241859002961540540
+    second: tf_A5_ashlands_3_1029
+  - first:
+      213: -9202136201700524126
+    second: tf_A5_ashlands_3_1030
+  - first:
+      213: -6316449768640130291
+    second: tf_A5_ashlands_3_1031
+  - first:
+      213: 6891510991147771506
+    second: tf_A5_ashlands_3_1032
+  - first:
+      213: -8922999334482353124
+    second: tf_A5_ashlands_3_1033
+  - first:
+      213: -7893312630576097351
+    second: tf_A5_ashlands_3_1034
+  - first:
+      213: 47132138579859354
+    second: tf_A5_ashlands_3_1035
+  - first:
+      213: -8298133877555838320
+    second: tf_A5_ashlands_3_1036
+  - first:
+      213: 6039530500321653970
+    second: tf_A5_ashlands_3_1037
+  - first:
+      213: 2990525836654705390
+    second: tf_A5_ashlands_3_1038
+  - first:
+      213: -1722480135880259601
+    second: tf_A5_ashlands_3_1039
+  - first:
+      213: -3275110682204137178
+    second: tf_A5_ashlands_3_1040
+  - first:
+      213: -7412929479703349863
+    second: tf_A5_ashlands_3_1041
+  - first:
+      213: 9133604990220902156
+    second: tf_A5_ashlands_3_1042
+  - first:
+      213: 3183728516576534075
+    second: tf_A5_ashlands_3_1043
+  - first:
+      213: 2987560049590348967
+    second: tf_A5_ashlands_3_1044
+  - first:
+      213: -1984053903533025760
+    second: tf_A5_ashlands_3_1045
+  - first:
+      213: -8134361347872565120
+    second: tf_A5_ashlands_3_1046
+  - first:
+      213: 4535572780000910800
+    second: tf_A5_ashlands_3_1047
+  - first:
+      213: -4740371594997935557
+    second: tf_A5_ashlands_3_1048
+  - first:
+      213: 943192835599042086
+    second: tf_A5_ashlands_3_1049
+  - first:
+      213: -4123309640262565851
+    second: tf_A5_ashlands_3_1050
+  - first:
+      213: 8297396812015901067
+    second: tf_A5_ashlands_3_1051
+  - first:
+      213: 1599320933585347064
+    second: tf_A5_ashlands_3_1052
+  - first:
+      213: -6359240450104449690
+    second: tf_A5_ashlands_3_1053
+  - first:
+      213: 6469405055669136813
+    second: tf_A5_ashlands_3_1054
+  - first:
+      213: 4371624093056269668
+    second: tf_A5_ashlands_3_1055
+  - first:
+      213: 3566313115442689785
+    second: tf_A5_ashlands_3_1056
+  - first:
+      213: 1353635215299935648
+    second: tf_A5_ashlands_3_1057
+  - first:
+      213: -828515685655013580
+    second: tf_A5_ashlands_3_1058
+  - first:
+      213: 1930979452436072342
+    second: tf_A5_ashlands_3_1059
+  - first:
+      213: 8624872551709645139
+    second: tf_A5_ashlands_3_1060
+  - first:
+      213: -7845052259078371308
+    second: tf_A5_ashlands_3_1061
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e774101be2b9acbd0800000000000000
+      internalID: -2609102409267329154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b986fdbbd918ca6d0800000000000000
+      internalID: -2977862739136911205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433a86cc81a853a70800000000000000
+      internalID: 8806096485506130740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917867806373a02a0800000000000000
+      internalID: -6770538384588372199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da88a15c020ef6d00800000000000000
+      internalID: 968238876258371757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_5
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8a383a522ffbf10800000000000000
+      internalID: 2287813379198527697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8100601271a59bc20800000000000000
+      internalID: 3222706063745089560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567cf8e27a1b44270800000000000000
+      internalID: 8233901350338938725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e69ae33fa12d06a0800000000000000
+      internalID: -6481487252342270237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2e401cb0af15600800000000000000
+      internalID: 455419965731037933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765afe101cb8afa00800000000000000
+      internalID: 791098345634375015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194413abe5742fd70800000000000000
+      internalID: 9075394671281259665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773554a037993fa80800000000000000
+      internalID: -8434228957762202761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff32d2599d66115f0800000000000000
+      internalID: -787735375116426241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_14
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e959e704414526db0800000000000000
+      internalID: -4800181806865410658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4ac55c1504a10b0800000000000000
+      internalID: -5757218453692046107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e35fb43c70785e50800000000000000
+      internalID: 6798307316278973409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42ff8012dcb45a00800000000000000
+      internalID: 744427448829997642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f4bb39f5e97b190800000000000000
+      internalID: -7946708884134342906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaf7a112e33f4040800000000000000
+      internalID: 4633979587639376549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845709a41300c83a0800000000000000
+      internalID: -6661949537083427512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff4c6ce465e2d3c0800000000000000
+      internalID: -4336151269578354689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_22
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d6ae2272b23aad0800000000000000
+      internalID: -2692260705147916909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb505882e4fa6910800000000000000
+      internalID: 1831545452266281909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d31e3fddc57c64d0800000000000000
+      internalID: -3140005313109945388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dbb667b35e090c0800000000000000
+      internalID: -4570901578228449900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b831b7d67fb49630800000000000000
+      internalID: 3932978891747047609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9389dc56d05f96920800000000000000
+      internalID: 2984185666001016889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b45d0de95d452a0800000000000000
+      internalID: -6749535063436342443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_29
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dd1e76e18756420800000000000000
+      internalID: 2622634430000389425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_30
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a6fe3b6ce7f7ac0800000000000000
+      internalID: -3855223364118418833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5d88d22d4954640800000000000000
+      internalID: 5063616986475976190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_32
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61222c3d6d0d46690800000000000000
+      internalID: -7609727849255001578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cbbb3e6550993c0800000000000000
+      internalID: -4352441694130816000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_34
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c827e4ed609e2f0800000000000000
+      internalID: -943215095088772006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2637b61b2c95cce0800000000000000
+      internalID: -1385529601467926998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_36
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4ff9e4ef5b7fb10800000000000000
+      internalID: 2015279462117012662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_37
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5231e3ea1276f160800000000000000
+      internalID: 7058954925767733851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_38
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc0d93a7ba7f1af0800000000000000
+      internalID: -423484910806954811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de11b8f1a4b429990800000000000000
+      internalID: -7380754057577950739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_40
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071332befafab6b80800000000000000
+      internalID: -8400427509830438544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42260e0d6db19450800000000000000
+      internalID: 6093860046893359692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ff21f167f8ae170800000000000000
+      internalID: 8208531008326401858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7393ceed49e8b7170800000000000000
+      internalID: 8177286318467594551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_44
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7b45497c62bab40800000000000000
+      internalID: 5452494412491044851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4300b725c1d9b7e0800000000000000
+      internalID: -1749136335552117940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_46
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402ec8ea7cb2761b0800000000000000
+      internalID: -5663509869768154620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5708bce6f80b3f340800000000000000
+      internalID: 4896451349967503477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_48
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f779fd05bd2c7eea0800000000000000
+      internalID: -5843487744279472257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f834c5691cffe0c0800000000000000
+      internalID: -4544136312981800712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_50
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2808737eae45510800000000000000
+      internalID: 1537111651629695695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5898fc6285ae678f0800000000000000
+      internalID: -542989040722409083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284b0f27fac4dffd0800000000000000
+      internalID: -2306603117712460670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1583df8b08641b0800000000000000
+      internalID: -5672705148615896590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_54
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be24ab343c1c85e0800000000000000
+      internalID: -1906117531620069708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29573e8c65fcd1c0800000000000000
+      internalID: -4477434082921850581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd2622734fc09f50800000000000000
+      internalID: 6886231718834351603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e65cf0fa8682d10800000000000000
+      internalID: 2101044327261499006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdb0e0d64e975140800000000000000
+      internalID: 4708405962428431858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_59
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e1a5bbc7f15a450800000000000000
+      internalID: 6099315890922856079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_60
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090b7d85f44e8e180800000000000000
+      internalID: -9085761218775895920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_61
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324bceee7776d40e0800000000000000
+      internalID: -2284055671199714269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942dbe212e0e4f2f0800000000000000
+      internalID: -939879160628915639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c797424b75863d0800000000000000
+      internalID: -3213221902911177613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1dce979beaf6f030800000000000000
+      internalID: 3528283247859387674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_65
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef16c38a17303ce70800000000000000
+      internalID: 9134148255926215166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270be053aecb5f920800000000000000
+      internalID: 3023530438947680370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_67
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7694a9b6a9a0a90800000000000000
+      internalID: -7346890055160862762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d42d0ed1b1c329b0800000000000000
+      internalID: -5106024582829234990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_69
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a41d723e3a8d23e0800000000000000
+      internalID: -2076851853408267102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953dddb05418b9200800000000000000
+      internalID: 187885943017821017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_71
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d43e92ab6e08f4d0800000000000000
+      internalID: -3100712487992019757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7399efb7970d12a0800000000000000
+      internalID: -6765242716899404934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9bc48868e5b4a00800000000000000
+      internalID: 741790495537936829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f59213ae90f8900800000000000000
+      internalID: 688780169462767371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_75
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c82659d07e19cd0800000000000000
+      internalID: -2553005468215505819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_76
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f208a61af368cc30800000000000000
+      internalID: 4379860563390890744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_77
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5984b40b3ad1a7a60800000000000000
+      internalID: 7672477504053659797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2cde368edb6f920800000000000000
+      internalID: 3023813005632455398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_79
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68d7fa7dcde76750800000000000000
+      internalID: 6298264070688069743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f84438edde875100800000000000000
+      internalID: 96703000746412274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b86c6e863736c180800000000000000
+      internalID: -9095521689970906953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0bd3a0aad366f70800000000000000
+      internalID: 9180092690966884522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31ee24c3d9ac5410800000000000000
+      internalID: 1467234305610539327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_84
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dba425a4b94e4000800000000000000
+      internalID: 22036088397016017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_85
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0ae05d00ea195a0800000000000000
+      internalID: -6516235867230658327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b0af341336c92b0800000000000000
+      internalID: -5576473175346509008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b43b918303116af0800000000000000
+      internalID: -405021585706371916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee92d66545701dc20800000000000000
+      internalID: 3229370466609998318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c127e545cb57650800000000000000
+      internalID: 6230092730084760625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9584b6115911fe30800000000000000
+      internalID: 4535434135802774941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_91
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbeae30d27c883950800000000000000
+      internalID: 6429042892819312316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_92
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1453d7378a8b7450800000000000000
+      internalID: 6087611634683171866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_93
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11e6926a1c749ee0800000000000000
+      internalID: -1255241943364476646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b337548657508870800000000000000
+      internalID: 8683036110669427634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_95
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62be89ca10766bc30800000000000000
+      internalID: 4374797344925346598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacd9fc3eaad63f30800000000000000
+      internalID: 4555068515014007982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_97
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0953fec98c6ca3580800000000000000
+      internalID: -8846539953087236720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d1e5a4c13550490800000000000000
+      internalID: -7780721400240792242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_99
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e51b3f48b8f75e0800000000000000
+      internalID: -1909654313841369583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_100
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed8e178197427db0800000000000000
+      internalID: -4795691962833400348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_101
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca757d5c91944c60800000000000000
+      internalID: 7801520555281447628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167cc064e5ef32b00800000000000000
+      internalID: 802764839457703777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_103
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc443369bcb03000800000000000000
+      internalID: 13718303301455099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_104
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f73bda7821b26d0800000000000000
+      internalID: -3014295151650308347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_105
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70784787287f54370800000000000000
+      internalID: 8306317227493459719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_106
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62a0516984378290800000000000000
+      internalID: -7888278457668296085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_107
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe95b262524caae70800000000000000
+      internalID: 9127323258652940783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_108
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50ef2fd6ac44b9d0800000000000000
+      internalID: -2759496392078532514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_109
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749fd93c2dde22ac0800000000000000
+      internalID: -3881278439359121081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d61132404cf06f90800000000000000
+      internalID: -6962287670996166959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_111
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e6a4570795e4f20800000000000000
+      internalID: 3408760307505065629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_112
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a1245ca115a6270800000000000000
+      internalID: 8244491243275557483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_113
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d27383e811788b0800000000000000
+      internalID: -5150128346348704436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_114
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d6c79d1fcf18c10800000000000000
+      internalID: 2054201020723785001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_115
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e806402d771c4ba10800000000000000
+      internalID: 1924375661162815630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_116
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44bc1db857909f30800000000000000
+      internalID: 4580327228421485644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A5_ashlands_3_117
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebea31d7c189eee90800000000000000
+      internalID: -6994485923134853442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

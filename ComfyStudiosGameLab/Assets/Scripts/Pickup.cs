@@ -12,11 +12,15 @@ public class Pickup : MonoBehaviour
     public GameObject popup;
     public GameObject objPopup;
     public GameObject obj_Picture;
+    public GameObject journalItems;
+    public GameObject jiExtraLarge;
 
     public Button choice1;
     public Button choice2;
     public Button nb;
     public Button pictureCB;
+    public Button jiXL;
+    public Button jiXL_CB;
 
     public Color incorColor = Color.red;
 
@@ -28,12 +32,16 @@ public class Pickup : MonoBehaviour
         choice2.GetComponent<Button>();
         nb.GetComponent<Button>();
         pictureCB.GetComponent<Button>();
+        jiXL_CB.GetComponent<Button>();
 
         objPopup.SetActive(false);
         popup.SetActive(false);
         obj_Picture.SetActive(false);
+        journalItems.SetActive(false);
+        jiExtraLarge.SetActive(false);
 
         pictureCB.onClick.AddListener(closeButton);
+        jiXL.onClick.AddListener(jiMagnify);
 
     }
 
@@ -42,25 +50,29 @@ public class Pickup : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             Time.timeScale = 0;
-            //objPop displays info related to objects interacted in-game before "popup" shown to check for flashback or put that object back in its place.
-            //On clicking the next button in the objPop UI, the "popup" should be shown. 
+
             objPopup.SetActive(true);
             nb.onClick.AddListener(choiceMenu);
-
-            //popup.SetActive(true);
-            //Time.timeScale = 0;
-            //choice1.onClick.AddListener(pickup);
-            //choice2.onClick.AddListener(discard);
         }
+    }
+    public void jiMagnify()
+    {
+        Time.timeScale = 0;
+        jiExtraLarge.SetActive(true);
+        jiXL_CB.onClick.AddListener(jiXLClose);
+    }
+    public void jiXLClose()
+    {
+        jiExtraLarge.SetActive(false);
     }
     public void closeButton()
     {
+        Time.timeScale = 1;
         Debug.Log("something");
-        //stuck here (This section isnt working).
         obj_Picture.SetActive(false);
-        //adds the information into the Item section of the journal.
+        journalItems.SetActive(true);
     }
-    void choiceMenu()
+    public void choiceMenu()
     {
         objPopup.SetActive(false);
         popup.SetActive(true);
@@ -81,13 +93,13 @@ public class Pickup : MonoBehaviour
                     taggedObjs.GetComponent<Image>().color = incorColor;
                 else if (taggedObjs.tag == "Correct")
                     obj_Picture.SetActive(true);
-                    Destroy(gameObject);
 
+                Destroy(gameObject);
                 break;
             }
         }
         popup.SetActive(false);
-        Time.timeScale = 1;
+        Time.timeScale = 0;
     }
     public void discard()
     {
