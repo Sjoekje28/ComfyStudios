@@ -15,9 +15,11 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f;
     public bool moving = false;
 
+    //public AudioSource walkingSound;
     void Start()
     {
         animator = gameObject.GetComponent<Animator>();
+        //walkingSound = GetComponent<AudioSource>();
     }
     void Update()
     {
@@ -35,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("Speedd", direction.sqrMagnitude);
             animator.SetFloat("Horizontal", direction.x);
             animator.SetFloat("Vertical", direction.y);
-            
+            //walkingSound.PlayDelayed(2);
             speed = 4f;
             moving = true;
 
