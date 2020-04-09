@@ -32,6 +32,8 @@ public class MEAcurracy : MonoBehaviour
     public Button slapAgain;
         
     private bool correctDragging = false;
+    private bool isSlapClothes = false;
+    private bool isFighting = false;
     
     // Start is called before the first frame update
     void Start()
@@ -73,6 +75,11 @@ public class MEAcurracy : MonoBehaviour
         if (other.CompareTag("something") && currentAccuracy == 2)
         {
             StartCoroutine(WaitaBit());
+            if (isFighting == true)
+            {
+                AddAccuracy(1);
+                isFighting = false;
+            }
         }
         if (other.CompareTag("NPC")&& currentAccuracy == 3)
         {
@@ -93,6 +100,11 @@ public class MEAcurracy : MonoBehaviour
             correctDragging = false;
             this.transform.DetachChildren();
             clothes();
+            if (isSlapClothes == true)
+            {
+                AddAccuracy (1);
+                isSlapClothes = false;
+            }
         }
         
         if (other.CompareTag("Incorrect") && currentAccuracy == 5)
@@ -105,7 +117,12 @@ public class MEAcurracy : MonoBehaviour
         }
         if (other.CompareTag("Correct") && currentAccuracy == 5)
         {
-            putDownReal();          
+            putDownReal();
+            if (isFighting == true)
+            {
+                AddAccuracy(1);
+                isFighting = false;
+            }
         }
         if (other.CompareTag("Gun") && currentAccuracy == 6)
         {
@@ -117,27 +134,27 @@ public class MEAcurracy : MonoBehaviour
     void StartArgument()
     {
         dialogue.SetActive(true);
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
         choice1.onClick.AddListener(Fight);
         choice2.onClick.AddListener(Nothing);
     }
 
     public void Fight()
     {
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
         dialogue.SetActive(false);
-        AddAccuracy(1);
+        isFighting = true;
     }
 
     public void Nothing()
     {
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
         dialogue.SetActive(false);
     }
 
     IEnumerator WaitaBit()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         StartArgument();
     }
 
@@ -164,7 +181,7 @@ public class MEAcurracy : MonoBehaviour
 
     void putDown()
     {
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
         smack.SetActive(true);
         yes.onClick.AddListener(Yes);
         no.onClick.AddListener(No);
@@ -172,14 +189,14 @@ public class MEAcurracy : MonoBehaviour
 
     void Yes()
     {
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
         smack.SetActive(false);
         this.transform.DetachChildren();
     }
 
     void putDownReal()
     {
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
         smack.SetActive(true);
         yess.onClick.AddListener(Yess);
         no.onClick.AddListener(No);
@@ -187,21 +204,22 @@ public class MEAcurracy : MonoBehaviour
 
     void No()
     {
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
         smack.SetActive(false);
     }
 
     void Yess()
     {
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
         smack.SetActive(false);
-        AddAccuracy(1);
+        isFighting = true;
+
         this.transform.DetachChildren();
     }
 
     void Murder()
     {
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
         murder.SetActive(true);
         heart.onClick.AddListener(Heart);
         throat.onClick.AddListener(Throat);
@@ -209,13 +227,13 @@ public class MEAcurracy : MonoBehaviour
 
     void Heart()
     {
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
         murder.SetActive(false);
     }
    
     void Throat()
     {
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
         murder.SetActive(false);
         AddAccuracy(1);
         victim.gameObject.GetComponent<SpriteRenderer>().sprite = deadVictim;
@@ -226,18 +244,20 @@ public class MEAcurracy : MonoBehaviour
         slap2.SetActive(true);
         slapAgain.onClick.AddListener(slapClothes);
         choke.onClick.AddListener(choking);
+
     }
 
     void slapClothes()
     {
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
         slap2.SetActive(false);
         pieceClothing.SetActive(true);
-        AddAccuracy(1);
+        isSlapClothes = true;
+        //AddAccuracy(1);
     }
 
     void choking() {
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
         slap2.SetActive(false);
 }
 }

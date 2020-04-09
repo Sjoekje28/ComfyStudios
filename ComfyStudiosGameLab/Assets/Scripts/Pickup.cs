@@ -44,7 +44,7 @@ public class Pickup : MonoBehaviour
         jiXL.onClick.AddListener(jiMagnify);
 
     }
-
+    
     public void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
