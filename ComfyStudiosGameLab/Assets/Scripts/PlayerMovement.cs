@@ -15,11 +15,12 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f;
     public bool moving = false;
 
-    //public AudioSource walkingSound;
+    public AudioSource walkingSound;
     void Start()
     {
         animator = gameObject.GetComponent<Animator>();
-        //walkingSound = GetComponent<AudioSource>();
+        AudioSource walkingSoundEffect = GetComponent<AudioSource>();
+        walkingSound = walkingSoundEffect;
     }
     void Update()
     {
@@ -28,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
         {
             target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             target.z = 0;
-            
+     
         }
         if (target != Vector3.zero && (target - position).magnitude >= .06)
         {
@@ -37,14 +38,14 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("Speedd", direction.sqrMagnitude);
             animator.SetFloat("Horizontal", direction.x);
             animator.SetFloat("Vertical", direction.y);
-            //walkingSound.PlayDelayed(2);
+            //walkingSound.Play();
             speed = 4f;
             moving = true;
 
         }
-
        if ((target - position).magnitude <= .06 && moving)
         {
+            //walkingSound.Play();
             moving = false;
         }
 

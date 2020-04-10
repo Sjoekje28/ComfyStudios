@@ -11,6 +11,8 @@ public class MEAcurracy : MonoBehaviour
     public AccuracyBar accuracyBar;
     public Sprite deadVictim;
 
+    public AudioSource slapSound;
+
     public GameObject dialogue;
     public GameObject slap;
     public GameObject smack;
@@ -43,6 +45,10 @@ public class MEAcurracy : MonoBehaviour
         choice1.GetComponent<Button>();
         choice2.GetComponent<Button>();
         dialogue.SetActive(false);
+
+        AudioSource slapSoundEffect = GetComponent<AudioSource>();
+        slapSound = slapSoundEffect;
+
         //victim = GameObject.FindGameObjectWithTag("NPC");
         //pieceClothing = GameObject.Find("Piece_of_Clothing");
     }
@@ -254,6 +260,8 @@ public class MEAcurracy : MonoBehaviour
         pieceClothing.SetActive(true);
         isSlapClothes = true;
         //AddAccuracy(1);
+        slapSound.Play();
+        //Add the slap sound here.
     }
 
     void choking() {

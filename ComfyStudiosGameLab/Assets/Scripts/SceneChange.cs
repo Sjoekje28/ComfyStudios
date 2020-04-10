@@ -5,16 +5,25 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class SceneChange : MonoBehaviour
 {
-    public Button cb;
+    public Button pb;
+    public Button ob;
+    public Button eb;
     // Start is called before the first frame update
     void Start()
     {
-        cb.GetComponent<Button>();
-        cb.onClick.AddListener(fb_bullet);
+        pb.GetComponent<Button>();
+        pb.onClick.AddListener(changeScene);
+        ob.GetComponent<Button>();
+        ob.onClick.AddListener(optionsSection);
+        eb.GetComponent<Button>();
+        ob.onClick.AddListener(Application.Quit);
     }
-
-    private void fb_bullet()
+    private void changeScene()
     {
         SceneManager.LoadScene("SampleScene");
+    }
+    private void optionsSection()
+    {
+        Debug.Log("Add options here");
     }
 }
