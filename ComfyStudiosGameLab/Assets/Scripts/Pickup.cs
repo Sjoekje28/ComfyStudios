@@ -15,6 +15,8 @@ public class Pickup : MonoBehaviour
     public GameObject journalItems;
     public GameObject jiExtraLarge;
 
+    public AudioSource lnSound;
+
     public Button choice1;
     public Button choice2;
     public Button nb;
@@ -43,6 +45,8 @@ public class Pickup : MonoBehaviour
         pictureCB.onClick.AddListener(closeButton);
         jiXL.onClick.AddListener(jiMagnify);
 
+        lnSound.GetComponent<AudioClip>();
+
     }
     
     public void OnTriggerEnter2D(Collider2D other)
@@ -53,6 +57,7 @@ public class Pickup : MonoBehaviour
 
             objPopup.SetActive(true);
             nb.onClick.AddListener(choiceMenu);
+
         }
     }
     public void jiMagnify()
@@ -71,18 +76,21 @@ public class Pickup : MonoBehaviour
         Debug.Log("something");
         obj_Picture.SetActive(false);
         journalItems.SetActive(true);
+
     }
     public void choiceMenu()
     {
         objPopup.SetActive(false);
         popup.SetActive(true);
         Time.timeScale = 0;
+        lnSound.Play();
         choice1.onClick.AddListener(pickup);
         choice2.onClick.AddListener(discard);
     }
 
     public void pickup()
     {
+
         for (int i = 0; i < inventory.slots.Length; i++)
         {
             if (inventory.slotsFull[i] == false)
@@ -93,7 +101,6 @@ public class Pickup : MonoBehaviour
                     taggedObjs.GetComponent<Image>().color = incorColor;
                 else if (taggedObjs.tag == "Correct")
                     obj_Picture.SetActive(true);
-
                 Destroy(gameObject);
                 break;
             }

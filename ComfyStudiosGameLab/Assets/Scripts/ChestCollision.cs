@@ -17,18 +17,26 @@ public class ChestCollision : MonoBehaviour
 
     public KeyCollect keyCollect;
     public collisionSound chestSound;
+
+    public AudioSource chestOpenSound;
+    public AudioSource chestCloseSound;
+
     public bool playerHasKey = false;
+    public bool isChestOpen = false;
     // Start is called before the first frame update
     void Start()
     {
         cButton.GetComponent<Button>();
-        //chestOpen.SetActive(false);
         chestClose.SetActive(true);
         chestOpen.SetActive(false);
         cdPopup.SetActive(false);
         cd.SetActive(false);
         cButton.onClick.AddListener(closeButton);
         cButton1.onClick.AddListener(closeButton1);
+
+        AudioSource[] audios = GetComponents<AudioSource>();
+        chestCloseSound = audios[0];
+        chestOpenSound = audios[1];
     }
     void OnCollisionEnter2D(Collision2D other)
     {
@@ -36,17 +44,19 @@ public class ChestCollision : MonoBehaviour
         { 
         Time.timeScale = 0;
         cdPopup.SetActive(true);
-        chestSound.bangingSound.Stop();
-            //start from here.
+        chestCloseSound.Play();
         }
-        else if (other.collider.CompareTag("Player") && (keyCollect.playerHasKey == true))
+        if (other.collider.CompareTag("Player") && (keyCollect.playerHasKey == true))
         {
             Time.timeScale = 0;
             chestClose.SetActive(false);
             chestOpen.SetActive(true);
             cd.SetActive(true);
             infoPopup.SetActive(true);
-
+            isChestOpen = true;
+            chestOpenSound.Play();
+            chestCloseSound.Stop();
+            //chestOpenSound is not working.
         }
     }
 
