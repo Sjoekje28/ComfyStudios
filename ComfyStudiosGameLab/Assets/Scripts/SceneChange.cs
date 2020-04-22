@@ -16,7 +16,7 @@ public class SceneChange : MonoBehaviour
         ob.GetComponent<Button>();
         ob.onClick.AddListener(optionsSection);
         eb.GetComponent<Button>();
-        ob.onClick.AddListener(Application.Quit);
+        eb.onClick.AddListener(Application.Quit);
     }
     private void changeScene()
     {
