@@ -7,7 +7,7 @@ public class MEAcurracy : MonoBehaviour
 {
     //public int MaxAccuracy = 5;
     public int currentAccuracy;
-    public int MinAccuracy = 0;
+    public int MinAccuracy = 8;
     public AccuracyBar accuracyBar;
     public Sprite deadVictim;
 
@@ -40,7 +40,7 @@ public class MEAcurracy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentAccuracy = MinAccuracy;
+        currentAccuracy = 8;
         accuracyBar.SetMinAccuracy(MinAccuracy);
         choice1.GetComponent<Button>();
         choice2.GetComponent<Button>();
