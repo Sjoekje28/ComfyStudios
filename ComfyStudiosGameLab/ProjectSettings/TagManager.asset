@@ -13,6 +13,7 @@ TagManager:
   - NPC
   - Gun
   - Clothing Spot
+  - MurderEye
   layers:
   - Default
   - TransparentFX
