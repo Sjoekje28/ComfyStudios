@@ -211,7 +211,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: b1e096cf83d855140874632ba5d40d6f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9639,6 +9639,7 @@ GameObject:
   - component: {fileID: 280545348}
   - component: {fileID: 280545347}
   - component: {fileID: 280545349}
+  - component: {fileID: 280545350}
   m_Layer: 0
   m_Name: Building_2 (3)
   m_TagString: Untagged
@@ -9720,7 +9721,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9942,6 +9943,45 @@ PolygonCollider2D:
       - {x: 3.1, y: 4.97}
       - {x: 3.12, y: 4.99}
       - {x: 3.12, y: 5.13}
+--- !u!114 &280545350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280545346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236f9c86b154cb4ca5734f10d6578d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newColor: {r: 0, g: 0, b: 0, a: 0}
+  oldColor: {r: 1, g: 1, b: 1, a: 1}
+  oldMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  Building_1: {fileID: 21300000, guid: 66b163f21cf395f47b82b206505d12c2, type: 3}
+  Building_2: {fileID: 21300000, guid: b1e096cf83d855140874632ba5d40d6f, type: 3}
+  Building_3: {fileID: 21300000, guid: 78a6bf7e45c2f274487d0ff0610a52cc, type: 3}
+  Building_4: {fileID: 21300000, guid: 0712dda3a3efea348878d42caa374ff0, type: 3}
+  Building_5: {fileID: 21300000, guid: 7073e2ebbf857e949bb9efd38d7e1cc4, type: 3}
+  Building_6: {fileID: 21300000, guid: bb45d7ee92dcaa749ae130445ef443c1, type: 3}
+  Building_7: {fileID: 21300000, guid: 4ec469a80ca017146bdaec389f0a8f70, type: 3}
+  Building_8: {fileID: 21300000, guid: d99478b61ceea2242baf2bb396237d0b, type: 3}
+  Building_9: {fileID: 21300000, guid: 783d0677eba19934ea711ddf104c0916, type: 3}
+  Building_10: {fileID: 21300000, guid: 04f1d98710c30e540a372050df7f2542, type: 3}
+  Building_11: {fileID: 21300000, guid: f9a7c9b6c85dae64e91b4452c7b187b2, type: 3}
+  Tavern: {fileID: 21300000, guid: 40a35aa719a6bbd47b77f27af2afeaac, type: 3}
+  MatBuilding_1: {fileID: 2100000, guid: d1349d4903b56634f815b94f740e2789, type: 2}
+  MatBuilding_2: {fileID: 2100000, guid: 34a3f38f42cbaa547ab9f539245e7f87, type: 2}
+  MatBuilding_3: {fileID: 2100000, guid: 95cee57f50d23814ab5012253b239400, type: 2}
+  MatBuilding_4: {fileID: 2100000, guid: 355fa8985e2f16246971d1f074039319, type: 2}
+  MatBuilding_5: {fileID: 2100000, guid: 8c67422d19b3b2741a23193ea7a8bb03, type: 2}
+  MatBuilding_6: {fileID: 2100000, guid: e7db533d7713f6548b3a49f173ba9904, type: 2}
+  MatBuilding_7: {fileID: 2100000, guid: 2eb7ee0c058f5f546bd0d7dd9a487342, type: 2}
+  MatBuilding_8: {fileID: 2100000, guid: 879d1a97ae353544ab18ec01467b31bd, type: 2}
+  MatBuilding_9: {fileID: 2100000, guid: ef90a802a8f50ab4299d59683e9819de, type: 2}
+  MatBuilding_10: {fileID: 2100000, guid: 0b61b8b8649849142a40cc18fb62ec92, type: 2}
+  MatBuilding_11: {fileID: 2100000, guid: 7acf81c3d5779c1448bb2a4c85e9aaf0, type: 2}
+  MatTavern: {fileID: 2100000, guid: a130c455af13ba7409d17229779e569e, type: 2}
 --- !u!1001 &297734017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10565,9 +10605,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.55
+  m_FalloffIntensity: 0.622
   m_Color: {r: 1, g: 1, b: 0.6745283, a: 1}
-  m_Intensity: 2.22
+  m_Intensity: 1.36
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
@@ -10578,8 +10618,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 2.2
-  m_PointLightOuterRadius: 4.21
+  m_PointLightInnerRadius: 0.65
+  m_PointLightOuterRadius: 6.62
   m_PointLightDistance: 3
   m_PointLightQuality: 1
   m_ShapeLightParametricSides: 5
@@ -88499,7 +88539,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.89
+  m_Intensity: 0.15
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
@@ -91143,7 +91183,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -3
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: b1e096cf83d855140874632ba5d40d6f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -97106,6 +97146,7 @@ GameObject:
   - component: {fileID: 1127307085}
   - component: {fileID: 1127307084}
   - component: {fileID: 1127307086}
+  - component: {fileID: 1127307087}
   m_Layer: 0
   m_Name: Building_1
   m_TagString: Untagged
@@ -97187,7 +97228,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -97683,6 +97724,45 @@ PolygonCollider2D:
     - - {x: -5.49, y: 3.5}
       - {x: -5.5299997, y: 3.48}
       - {x: -5.52, y: 3.47}
+--- !u!114 &1127307087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127307083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236f9c86b154cb4ca5734f10d6578d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newColor: {r: 0, g: 0, b: 0, a: 0}
+  oldColor: {r: 1, g: 1, b: 1, a: 1}
+  oldMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  Building_1: {fileID: 21300000, guid: 66b163f21cf395f47b82b206505d12c2, type: 3}
+  Building_2: {fileID: 21300000, guid: b1e096cf83d855140874632ba5d40d6f, type: 3}
+  Building_3: {fileID: 21300000, guid: 78a6bf7e45c2f274487d0ff0610a52cc, type: 3}
+  Building_4: {fileID: 21300000, guid: 0712dda3a3efea348878d42caa374ff0, type: 3}
+  Building_5: {fileID: 21300000, guid: 7073e2ebbf857e949bb9efd38d7e1cc4, type: 3}
+  Building_6: {fileID: 21300000, guid: bb45d7ee92dcaa749ae130445ef443c1, type: 3}
+  Building_7: {fileID: 21300000, guid: 4ec469a80ca017146bdaec389f0a8f70, type: 3}
+  Building_8: {fileID: 21300000, guid: d99478b61ceea2242baf2bb396237d0b, type: 3}
+  Building_9: {fileID: 21300000, guid: 783d0677eba19934ea711ddf104c0916, type: 3}
+  Building_10: {fileID: 21300000, guid: 04f1d98710c30e540a372050df7f2542, type: 3}
+  Building_11: {fileID: 21300000, guid: f9a7c9b6c85dae64e91b4452c7b187b2, type: 3}
+  Tavern: {fileID: 21300000, guid: 40a35aa719a6bbd47b77f27af2afeaac, type: 3}
+  MatBuilding_1: {fileID: 2100000, guid: d1349d4903b56634f815b94f740e2789, type: 2}
+  MatBuilding_2: {fileID: 2100000, guid: 34a3f38f42cbaa547ab9f539245e7f87, type: 2}
+  MatBuilding_3: {fileID: 2100000, guid: 95cee57f50d23814ab5012253b239400, type: 2}
+  MatBuilding_4: {fileID: 2100000, guid: 355fa8985e2f16246971d1f074039319, type: 2}
+  MatBuilding_5: {fileID: 2100000, guid: 8c67422d19b3b2741a23193ea7a8bb03, type: 2}
+  MatBuilding_6: {fileID: 2100000, guid: e7db533d7713f6548b3a49f173ba9904, type: 2}
+  MatBuilding_7: {fileID: 2100000, guid: 2eb7ee0c058f5f546bd0d7dd9a487342, type: 2}
+  MatBuilding_8: {fileID: 2100000, guid: 879d1a97ae353544ab18ec01467b31bd, type: 2}
+  MatBuilding_9: {fileID: 2100000, guid: ef90a802a8f50ab4299d59683e9819de, type: 2}
+  MatBuilding_10: {fileID: 2100000, guid: 0b61b8b8649849142a40cc18fb62ec92, type: 2}
+  MatBuilding_11: {fileID: 2100000, guid: 7acf81c3d5779c1448bb2a4c85e9aaf0, type: 2}
+  MatTavern: {fileID: 2100000, guid: a130c455af13ba7409d17229779e569e, type: 2}
 --- !u!1 &1127859232
 GameObject:
   m_ObjectHideFlags: 0
@@ -103290,7 +103370,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 04f1d98710c30e540a372050df7f2542, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -105761,7 +105841,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: 783d0677eba19934ea711ddf104c0916, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -109524,7 +109604,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 783d0677eba19934ea711ddf104c0916, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -115514,7 +115594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1821171948
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -115553,7 +115633,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: d99478b61ceea2242baf2bb396237d0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -115573,7 +115653,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821171947}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.538597, y: 11.071497, z: 631.12195}
+  m_LocalPosition: {x: 46.53, y: 11.69, z: 631.12195}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1644906778}
@@ -122618,7 +122698,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -3
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: bb45d7ee92dcaa749ae130445ef443c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
