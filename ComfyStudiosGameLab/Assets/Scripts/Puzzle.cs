@@ -6,10 +6,12 @@ public class Puzzle : MonoBehaviour
 {
     public Texture2D image;
 
-    public int blocksPerLine = 4;
+    public int blocksPerLine;
     public int shuffleLength = 20;
     public float defaultMoveDuration = .2f;
     public float shuffleMoveDuration = .1f;
+
+    public Camera gameCam;
 
     enum PuzzleState { Solved, Shuffling, InPlay};
     PuzzleState state;
@@ -21,13 +23,19 @@ public class Puzzle : MonoBehaviour
     int shuffleMovesRemaining;
     Vector2Int prevShuffleOffset;
 
-    // Start is called before the first frame update
-    void Start()
+    public float numToChange;
+// Start is called before the first frame update
+void Start()
     {
         CreatePuzzle();
     }
-
     void Update()
+    {
+        //this.transform.position = new Vector3(11.5f, -14.5f);
+        shuffleInitiate();
+    }
+
+    private void shuffleInitiate()
     {
         if (state == PuzzleState.Solved && Input.GetKeyDown(KeyCode.Space))
         {
@@ -35,6 +43,7 @@ public class Puzzle : MonoBehaviour
             StartShuffle();
         }
     }
+
     void CreatePuzzle()
     {
         blocks = new Block[blocksPerLine, blocksPerLine];
@@ -44,7 +53,7 @@ public class Puzzle : MonoBehaviour
             for (int x = 0; x < blocksPerLine; x++)
             {
                 GameObject blockObject = GameObject.CreatePrimitive(PrimitiveType.Quad);
-                blockObject.transform.position = -Vector2.one * (blocksPerLine - 1) * .5f + new Vector2(x, y);
+                blockObject.transform.position = new Vector2(7, -10.5f) * (blocksPerLine - 1) * .5f + new Vector2(x, y);
                 blockObject.layer = 0;
                 blockObject.transform.parent = transform;
 
@@ -60,10 +69,14 @@ public class Puzzle : MonoBehaviour
                 }
             }
         }
-        //comment out the camera line if placing the puzzle in an object. - Aadi.
-        //Camera.main.orthographicSize = blocksPerLine * .55f;
         inputs = new Queue<Block>();
     }
+
+    public void boxSizeChange()
+    {
+        gameCam.orthographicSize = blocksPerLine * numToChange;
+    }
+
     void playerMoveBlockInput(Block blockToMove)
     {
         if (state == PuzzleState.InPlay)
@@ -160,5 +173,15 @@ public class Puzzle : MonoBehaviour
         state = PuzzleState.Solved;
         emptyBlock.gameObject.SetActive(true);
         //here you can add code to say what happens when puzzle is solved. - Aadi.
+        if (emptyBlock.gameObject.activeSelf == true)
+        {
+            StartCoroutine(puzzleSolved(4));
+        }
+    }
+    IEnumerator puzzleSolved(float delay)
+    {
+        GameObject puzzleCloseInit = GameObject.Find("SlidingManager");
+        puzzleCloseInit.GetComponent<SlidingPuzzleManager>().puzzleClose();
+        yield return new WaitForSeconds(delay);
     }
 }
