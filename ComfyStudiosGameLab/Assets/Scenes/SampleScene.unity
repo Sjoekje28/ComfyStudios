@@ -2108,7 +2108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &57328017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79607,8 +79607,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 2800000, guid: 5bf7b47cf5be1984e98de3c02819ab11, type: 3}
-  blocksPerLine: 3
-  shuffleLength: 20
+  bullet: {fileID: 1474934088}
+  pieceOfClothing: {fileID: 1808500427}
+  victim: {fileID: 2053544591}
+  letter: {fileID: 1699543623}
+  cab: {fileID: 731608124}
+  puzzleManager: {fileID: 1589358405}
+  blocksPerLine: 4
+  shuffleLength: 1
   defaultMoveDuration: 0.1
   shuffleMoveDuration: 0.05
   gameCam: {fileID: 1861693824}
@@ -87759,7 +87765,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &747998155
 RectTransform:
   m_ObjectHideFlags: 0
@@ -105885,7 +105891,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1435302444
 MonoBehaviour:
   m_ObjectHideFlags: 0

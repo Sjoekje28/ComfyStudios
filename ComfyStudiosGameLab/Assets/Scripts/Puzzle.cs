@@ -6,6 +6,14 @@ public class Puzzle : MonoBehaviour
 {
     public Texture2D image;
 
+    public GameObject bullet;
+    public GameObject pieceOfClothing;
+    public GameObject victim;
+    public GameObject letter;
+    public GameObject cab;
+    public SlidingPuzzleManager puzzleManager; 
+
+
     public int blocksPerLine;
     public int shuffleLength = 20;
     public float defaultMoveDuration = .2f;
@@ -175,13 +183,18 @@ void Start()
         //here you can add code to say what happens when puzzle is solved. - Aadi.
         if (emptyBlock.gameObject.activeSelf == true)
         {
-            StartCoroutine(puzzleSolved(4));
+            StartCoroutine(puzzleSolved(2));
         }
     }
     IEnumerator puzzleSolved(float delay)
     {
         GameObject puzzleCloseInit = GameObject.Find("SlidingManager");
         puzzleCloseInit.GetComponent<SlidingPuzzleManager>().puzzleClose();
+        if (puzzleManager.bulletSP.activeSelf == true)
+        {
+            bullet.SetActive(true);
+        }
+        Debug.Log("hellohellohello");
         yield return new WaitForSeconds(delay);
     }
 }

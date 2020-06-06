@@ -6,6 +6,7 @@ public class SlidingPuzzleManager : MonoBehaviour
 {
     public GameObject spObj;
     public GameObject bulletSP;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,14 +20,21 @@ public class SlidingPuzzleManager : MonoBehaviour
         {
             Time.timeScale = 1;
             GameObject player = GameObject.Find("Player");
+            //player.SetActive(false);
             player.GetComponent<PlayerMovement>().speed = 0;
+            player.GetComponent<SpriteRenderer>().enabled = false; 
             bulletSP.SetActive(true);
             bulletSP.GetComponent<Puzzle>().boxSizeChange();
         }
     }
     public void puzzleClose()
     {
-        bulletSP.SetActive(false);
-        bulletSP.GetComponent<Puzzle>().gameCam.orthographicSize = 6.395487f;
+        spObj.SetActive(false);
+        Destroy(bulletSP);
+        Camera.main.orthographicSize = 6.395487f;
+        GameObject player = GameObject.Find("Player");
+        player.GetComponent<SpriteRenderer>().enabled = true;
+        // player.SetActive(true);
+        Debug.Log("it's working boy");
     }
 }
