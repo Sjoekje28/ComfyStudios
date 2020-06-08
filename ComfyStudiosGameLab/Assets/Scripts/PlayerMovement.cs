@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        Debug.Log(moving);
+        //Debug.Log(speed);
         position = gameObject.transform.position;
         if (Input.GetMouseButtonDown(0))
         {

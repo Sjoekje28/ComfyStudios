@@ -7,7 +7,7 @@ public class MEAcurracy : MonoBehaviour
 {
     //public int MaxAccuracy = 5;
     public int currentAccuracy;
-    public int MinAccuracy = 8;
+    public int MinAccuracy;
     public AccuracyBar accuracyBar;
     public Sprite deadVictim;
 
@@ -41,10 +41,12 @@ public class MEAcurracy : MonoBehaviour
     void Start()
     {
         currentAccuracy = 8;
+        MinAccuracy = 0;
         accuracyBar.SetMinAccuracy(MinAccuracy);
         choice1.GetComponent<Button>();
         choice2.GetComponent<Button>();
         dialogue.SetActive(false);
+        accuracyBar.SetAccuracy(currentAccuracy);
 
         AudioSource slapSoundEffect = GetComponent<AudioSource>();
         slapSound = slapSoundEffect;
@@ -57,11 +59,11 @@ public class MEAcurracy : MonoBehaviour
     void Update()
     {
         //Debug.Log(correctDragging);
-        Debug.Log(currentAccuracy);
+        //Debug.Log(currentAccuracy);
 
     }
 
-    void AddAccuracy(int accuracy)
+    public void AddAccuracy(int accuracy)
     {
         currentAccuracy += accuracy;
         accuracyBar.SetAccuracy(currentAccuracy);
@@ -69,14 +71,18 @@ public class MEAcurracy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Bush") && currentAccuracy <1)
+        if (other.name == ("Victim") && currentAccuracy == 8)
         {
-            AddAccuracy(1);
-                
+            Debug.Log("victim says hello");
+            //Start text puzzle
+            Time.timeScale = 0;
+            this.GetComponent<SpriteRenderer>().enabled = false;
+            //AddAccuracy(1);
         }
-        if (other.CompareTag("something") && currentAccuracy == 1)
+
+        //if (other.CompareTag("Victim2") && currentAccuracy == 9 || currentAccuracy == 7)
         {
-            AddAccuracy(1);                    
+            //AddAccuracy(1);                    
         }
         if (other.CompareTag("something") && currentAccuracy == 2)
         {
