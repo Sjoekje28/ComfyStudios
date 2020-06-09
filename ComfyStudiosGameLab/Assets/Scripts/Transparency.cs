@@ -59,7 +59,7 @@ public class Transparency : MonoBehaviour
         {
             if (GetComponent<SpriteRenderer>().sprite == Building_1) //&& other.transform.position.y > (size.transform.position.y / 2.5f))
             {
-                Debug.Log("Player has entered the trigger");
+                //Debug.Log("Player has entered the trigger");
                 /*Color newColor = other.GetComponent<SpriteRenderer>().color;
                 Debug.Log(newColor);
                 newColor = Color.red;*/
@@ -69,57 +69,57 @@ public class Transparency : MonoBehaviour
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_2)
             {
-                Debug.Log("Player has entered the trigger");
+                //Debug.Log("Player has entered the trigger");
                 GetComponent<SpriteRenderer>().material = MatBuilding_2;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_3)
             {
-                Debug.Log("Player has entered the trigger");
+                //Debug.Log("Player has entered the trigger");
                 GetComponent<SpriteRenderer>().material = MatBuilding_3;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_4)
             {
-                Debug.Log("Player has entered the trigger");
+                //Debug.Log("Player has entered the trigger");
                 GetComponent<SpriteRenderer>().material = MatBuilding_4;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_5)
             {
-                Debug.Log("Player has entered the trigger");
+                //Debug.Log("Player has entered the trigger");
                 GetComponent<SpriteRenderer>().material = MatBuilding_5;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_6)
             {
-                Debug.Log("Player has entered the trigger");
+                //Debug.Log("Player has entered the trigger");
                 GetComponent<SpriteRenderer>().material = MatBuilding_6;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_7)
             {
-                Debug.Log("Player has entered the trigger");
+                //Debug.Log("Player has entered the trigger");
                 GetComponent<SpriteRenderer>().material = MatBuilding_7;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_8)
             {
-                Debug.Log("Player has entered the trigger");
+                //Debug.Log("Player has entered the trigger");
                 GetComponent<SpriteRenderer>().material = MatBuilding_8;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_9)
             {
-                Debug.Log("Player has entered the trigger");
+                //Debug.Log("Player has entered the trigger");
                 GetComponent<SpriteRenderer>().material = MatBuilding_9;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_10)
             {
-                Debug.Log("Player has entered the trigger");
+                //Debug.Log("Player has entered the trigger");
                 GetComponent<SpriteRenderer>().material = MatBuilding_10;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_11)
             {
-                Debug.Log("Player has entered the trigger");
+                //Debug.Log("Player has entered the trigger");
                 GetComponent<SpriteRenderer>().material = MatBuilding_11;
             }
             if (GetComponent<SpriteRenderer>().sprite == Tavern)
             {
-                Debug.Log("Player has entered the trigger");
+                //Debug.Log("Player has entered the trigger");
                 GetComponent<SpriteRenderer>().material = MatTavern;
             }
         }
@@ -131,62 +131,62 @@ public class Transparency : MonoBehaviour
         {
             if (GetComponent<SpriteRenderer>().sprite == Building_1)
             {
-                Debug.Log("Player has exited the trigger");
+                //Debug.Log("Player has exited the trigger");
                 GetComponent<SpriteRenderer>().material = oldMaterial;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_2)
             {
-                Debug.Log("Player has exited the trigger");
+                //Debug.Log("Player has exited the trigger");
                 GetComponent<SpriteRenderer>().material = oldMaterial;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_3)
             {
-                Debug.Log("Player has exited the trigger");
+                //Debug.Log("Player has exited the trigger");
                 GetComponent<SpriteRenderer>().material = oldMaterial;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_4)
             {
-                Debug.Log("Player has exited the trigger");
+                //Debug.Log("Player has exited the trigger");
                 GetComponent<SpriteRenderer>().material = oldMaterial;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_5)
             {
-                Debug.Log("Player has exited the trigger");
+                //Debug.Log("Player has exited the trigger");
                 GetComponent<SpriteRenderer>().material = oldMaterial;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_6)
             {
-                Debug.Log("Player has exited the trigger");
+                //Debug.Log("Player has exited the trigger");
                 GetComponent<SpriteRenderer>().material = oldMaterial;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_7)
             {
-                Debug.Log("Player has exited the trigger");
+                //Debug.Log("Player has exited the trigger");
                 GetComponent<SpriteRenderer>().material = oldMaterial;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_8)
             {
-                Debug.Log("Player has exited the trigger");
+                //Debug.Log("Player has exited the trigger");
                 GetComponent<SpriteRenderer>().material = oldMaterial;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_9)
             {
-                Debug.Log("Player has exited the trigger");
+                //Debug.Log("Player has exited the trigger");
                 GetComponent<SpriteRenderer>().material = oldMaterial;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_10)
             {
-                Debug.Log("Player has exited the trigger");
+                //Debug.Log("Player has exited the trigger");
                 GetComponent<SpriteRenderer>().material = oldMaterial;
             }
             if (GetComponent<SpriteRenderer>().sprite == Building_11)
             {
-                Debug.Log("Player has exited the trigger");
+                //Debug.Log("Player has exited the trigger");
                 GetComponent<SpriteRenderer>().material = oldMaterial;
             }
             if (GetComponent<SpriteRenderer>().sprite == Tavern)
             {
-                Debug.Log("Player has exited the trigger");
+                //Debug.Log("Player has exited the trigger");
                 GetComponent<SpriteRenderer>().material = oldMaterial;
             }
         }

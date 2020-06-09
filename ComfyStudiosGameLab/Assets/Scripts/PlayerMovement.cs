@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     //public Rigidbody2D rb;
     public float speed = 5f;
     public bool moving = false;
+    public Rigidbody2D rb;
 
     public AudioSource walkingSound;
     void Start()
@@ -24,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
+        //Debug.Log(speed);
         position = gameObject.transform.position;
         if (Input.GetMouseButtonDown(0))
         {
@@ -38,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("Speedd", direction.sqrMagnitude);
             animator.SetFloat("Horizontal", direction.x);
             animator.SetFloat("Vertical", direction.y);
+            //rb.velocity = new Vector2(direction.x, direction.y)* speed;
             //walkingSound.Play();
             speed = 4f;
             moving = true;
@@ -46,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
        if ((target - position).magnitude <= .06 && moving)
         {
             //walkingSound.Play();
-            moving = false;
+            moving = false;            
         }
 
        if (moving == false)
@@ -55,7 +58,7 @@ public class PlayerMovement : MonoBehaviour
             speed = 0f;
         }
 
-       // rb.velocity = new Vector2(direction.x, direction.y);
+       //
 
         //Debug.Log(moving);
         //Debug.Log(speed);
