@@ -5,12 +5,12 @@ using UnityEngine;
 public class SlidingPuzzleManager : MonoBehaviour
 {
     public GameObject spObj;
-    public GameObject bulletSP;
+    public GameObject SP_Obj_Evidence;
     
     // Start is called before the first frame update
     void Start()
     {
-        bulletSP.SetActive(false);
+        SP_Obj_Evidence.SetActive(false);
     }
 
     // Update is called once per frame
@@ -23,14 +23,14 @@ public class SlidingPuzzleManager : MonoBehaviour
             //player.SetActive(false);
             player.GetComponent<PlayerMovement>().speed = 0;
             player.GetComponent<SpriteRenderer>().enabled = false; 
-            bulletSP.SetActive(true);
-            bulletSP.GetComponent<Puzzle>().boxSizeChange();
+            SP_Obj_Evidence.SetActive(true);
+            SP_Obj_Evidence.GetComponent<Puzzle>().boxSizeChange();
         }
     }
     public void puzzleClose()
     {
         spObj.SetActive(false);
-        Destroy(bulletSP);
+        Destroy(SP_Obj_Evidence);
         Camera.main.orthographicSize = 6.395487f;
         GameObject player = GameObject.Find("Player");
         player.GetComponent<SpriteRenderer>().enabled = true;

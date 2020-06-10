@@ -6,11 +6,9 @@ public class Puzzle : MonoBehaviour
 {
     public Texture2D image;
 
-    public GameObject bullet;
-    public GameObject pieceOfClothing;
-    public GameObject victim;
-    public GameObject letter;
-    public GameObject cab;
+    public GameObject evidenceInfo;
+    public GameObject puzzleCloseInit;
+
     public SlidingPuzzleManager puzzleManager; 
 
 
@@ -18,8 +16,12 @@ public class Puzzle : MonoBehaviour
     public int shuffleLength = 20;
     public float defaultMoveDuration = .2f;
     public float shuffleMoveDuration = .1f;
+    public float puzzlePosX;
+    public float puzzlePosY;
 
     public Camera gameCam;
+
+    public GameObject vs;
 
     enum PuzzleState { Solved, Shuffling, InPlay};
     PuzzleState state;
@@ -36,16 +38,16 @@ public class Puzzle : MonoBehaviour
 void Start()
     {
         CreatePuzzle();
+        vs.SetActive(false);
     }
     void Update()
     {
-        //this.transform.position = new Vector3(11.5f, -14.5f);
         shuffleInitiate();
     }
 
     private void shuffleInitiate()
     {
-        if (state == PuzzleState.Solved && Input.GetKeyDown(KeyCode.Space))
+        if (state == PuzzleState.Solved)
         {
             //instead of the space keyboard, add the necessary step needed to be taken to make the sliding puzzle shuffle itself before the player gets to see it.
             StartShuffle();
@@ -61,7 +63,7 @@ void Start()
             for (int x = 0; x < blocksPerLine; x++)
             {
                 GameObject blockObject = GameObject.CreatePrimitive(PrimitiveType.Quad);
-                blockObject.transform.position = new Vector2(7, -10.5f) * (blocksPerLine - 1) * .5f + new Vector2(x, y);
+                blockObject.transform.position = new Vector2(puzzlePosX, puzzlePosY) * (blocksPerLine - 1) * .5f + new Vector2(x, y);
                 blockObject.layer = 0;
                 blockObject.transform.parent = transform;
 
@@ -180,19 +182,15 @@ void Start()
         }
         state = PuzzleState.Solved;
         emptyBlock.gameObject.SetActive(true);
-        //here you can add code to say what happens when puzzle is solved. - Aadi.
-        if (emptyBlock.gameObject.activeSelf == true)
-        {
-            StartCoroutine(puzzleSolved(2));
-        }
+        StartCoroutine(puzzleSolved(10));
+        vs.SetActive(true);
     }
-    IEnumerator puzzleSolved(float delay)
+    IEnumerator puzzleSolved(int delay)
     {
-        GameObject puzzleCloseInit = GameObject.Find("SlidingManager");
         puzzleCloseInit.GetComponent<SlidingPuzzleManager>().puzzleClose();
-        if (puzzleManager.bulletSP.activeSelf == true)
+        if (puzzleManager.SP_Obj_Evidence.activeSelf == true)
         {
-            bullet.SetActive(true);
+            evidenceInfo.SetActive(true);
         }
         Debug.Log("hellohellohello");
         yield return new WaitForSeconds(delay);

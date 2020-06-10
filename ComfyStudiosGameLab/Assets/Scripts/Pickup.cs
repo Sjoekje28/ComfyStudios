@@ -46,10 +46,6 @@ public class Pickup : MonoBehaviour
         jiXL.onClick.AddListener(jiMagnify);
 
         lnSound.GetComponent<AudioClip>();
-
-        GameObject.FindGameObjectWithTag("MurderEye").GetComponent<SequencePuzzle>().enabled = false;
-        //me.GetComponent<SequencePuzzle>().enabled = false;
-
     }
     
     public void OnTriggerEnter2D(Collider2D other)
@@ -104,15 +100,10 @@ public class Pickup : MonoBehaviour
                     taggedObjs.GetComponent<Image>().color = incorColor;
                 else if (taggedObjs.tag == "Correct")
                     obj_Picture.SetActive(true);
+                    
                 Destroy(gameObject);
 
                 break;
-            }
-            if (inventory.slotsFull[3] == true)
-            {
-                GameObject me = GameObject.FindGameObjectWithTag("MurderEye");
-                me.GetComponent<Image>().color = Color.white;
-                GameObject.FindGameObjectWithTag("MurderEye").GetComponent<SequencePuzzle>().enabled = true;
             }
         }
         popup.SetActive(false);

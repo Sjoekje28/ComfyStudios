@@ -10,7 +10,7 @@ public class SequencePuzzle : MonoBehaviour
     {
         me.onClick.AddListener(sequencePuzzleInit);
     }
-    void sequencePuzzleInit()
+    public void sequencePuzzleInit()
     {
         Time.timeScale = 0;
         Debug.Log("Make the sequence puzzle happen now!");
