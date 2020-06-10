@@ -10,7 +10,13 @@ public class AccuracyBar : MonoBehaviour
     public void SetMinAccuracy(int accuracy)
     {
         slider.minValue = accuracy;
-        slider.value = accuracy;
+        //slider.value = accuracy;
+    }
+
+    public void SetMaxAccuracy(int accuracy)
+    {
+        slider.maxValue = accuracy;
+        //slider.value = accuracy;
     }
 
     public void SetAccuracy(int accuracy)
