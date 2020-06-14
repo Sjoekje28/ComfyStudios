@@ -18,7 +18,7 @@ public class Pickup : MonoBehaviour
     public AudioSource lnSound;
 
     public Button choice1;
-    public Button choice2;
+    //public Button choice2;
     public Button nb;
     public Button pictureCB;
     public Button jiXL;
@@ -31,7 +31,7 @@ public class Pickup : MonoBehaviour
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
 
         choice1.GetComponent<Button>();
-        choice2.GetComponent<Button>();
+        //choice2.GetComponent<Button>();
         nb.GetComponent<Button>();
         pictureCB.GetComponent<Button>();
         jiXL_CB.GetComponent<Button>();
@@ -84,7 +84,7 @@ public class Pickup : MonoBehaviour
         Time.timeScale = 0;
         lnSound.Play();
         choice1.onClick.AddListener(pickup);
-        choice2.onClick.AddListener(discard);
+        //choice2.onClick.AddListener(discard);
     }
 
     public void pickup()
@@ -111,9 +111,9 @@ public class Pickup : MonoBehaviour
 
 
     }
-    public void discard()
-    {
-        Time.timeScale = 1;
-        popup.SetActive(false);
-    }
+    //public void discard()
+    //{
+    //    Time.timeScale = 1;
+    //    popup.SetActive(false);
+    //}
 }

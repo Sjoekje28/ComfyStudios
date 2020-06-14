@@ -30,7 +30,6 @@ public class METransition : MonoBehaviour
             popupME.SetActive(true);
             Time.timeScale = 0;
             choice1.onClick.AddListener(MEScene);
-            choice2.onClick.AddListener(discard);
             
            
                 
@@ -44,11 +43,5 @@ public class METransition : MonoBehaviour
         testing.SetActive(false);
         ME.SetActive(true);
 
-    }
-
-    public void discard()
-    {
-        Time.timeScale = 1;
-        popupME.SetActive(false);
     }
 }

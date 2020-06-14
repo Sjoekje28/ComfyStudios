@@ -10,10 +10,10 @@ public class ChestCollision : MonoBehaviour
     public GameObject chestOpen;
     public GameObject cd;
     public GameObject cdPopup;
-    public GameObject infoPopup;
+    //public GameObject infoPopup;
 
     public Button cButton;
-    public Button cButton1;
+    //public Button cButton1;
 
     public KeyCollect keyCollect;
     public collisionSound chestSound;
@@ -32,7 +32,7 @@ public class ChestCollision : MonoBehaviour
         cdPopup.SetActive(false);
         cd.SetActive(false);
         cButton.onClick.AddListener(closeButton);
-        cButton1.onClick.AddListener(closeButton1);
+        //cButton1.onClick.AddListener(closeButton1);
 
         AudioSource[] audios = GetComponents<AudioSource>();
         chestCloseSound = audios[0];
@@ -48,11 +48,10 @@ public class ChestCollision : MonoBehaviour
         }
         if (other.collider.CompareTag("Player") && (keyCollect.playerHasKey == true))
         {
-            Time.timeScale = 0;
+            Time.timeScale = 1;
             chestClose.SetActive(false);
             chestOpen.SetActive(true);
             cd.SetActive(true);
-            infoPopup.SetActive(true);
             isChestOpen = true;
             chestOpenSound.Play();
             chestCloseSound.Stop();
@@ -67,10 +66,9 @@ public class ChestCollision : MonoBehaviour
 
         Time.timeScale = 1;
     }
-    void closeButton1()
-    {
-        infoPopup.SetActive(false);
-        Time.timeScale = 1;
-    }
+    //void closeButton1()
+    //{
+    //    Time.timeScale = 1;
+    //}
 
 }
