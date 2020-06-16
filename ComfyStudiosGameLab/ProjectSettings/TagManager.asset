@@ -51,3 +51,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: visionsBlack
+    uniqueID: 699753635
+    locked: 0
+  - name: visions
+    uniqueID: 3341367353
+    locked: 0

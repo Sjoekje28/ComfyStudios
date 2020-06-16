@@ -6,6 +6,10 @@ public class seqPHandler : MonoBehaviour
 {
     Inventory Inventory;
     public GameObject ME;
+    public GameObject sequencePuzzle;
+    public GameObject player;
+    public GameObject canvas1;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -13,20 +17,26 @@ public class seqPHandler : MonoBehaviour
         ME.GetComponent<Button>().interactable = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Inventory.slots[4])
-        {
-            ME.GetComponent<Image>().color = Color.white;
-            ME.GetComponent<Button>().interactable = true;
-            ME.GetComponent<Button>().enabled = true;
-        }
-        ME.GetComponent<Button>().onClick.AddListener(sequencePuzzleInit);
-    }
     public void sequencePuzzleInit()
-    {
+    {        
         Time.timeScale = 0;
-        Debug.Log("Make the sequence puzzle happen now!");
+        sequencePuzzle.SetActive(true);
+        Debug.Log("Sequence puzzle");
+        //player.GetComponent<PlayerMovement>().enabled = false;
+        player.GetComponent<SpriteRenderer>().enabled = false;
+        canvas1.SetActive(false);
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (Inventory.slotsFull[4] && other.name == ("Player"))
+            {
+                ME.GetComponent<Image>().color = Color.white;
+                ME.GetComponent<Button>().interactable = true;
+                ME.GetComponent<Button>().enabled = true;
+                ME.GetComponent<Button>().onClick.AddListener(sequencePuzzleInit);
+            }
+        }
+    
+    
 }

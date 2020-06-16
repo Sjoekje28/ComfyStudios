@@ -192,7 +192,7 @@ void Start()
         {
             evidenceInfo.SetActive(true);
         }
-        Debug.Log("hellohellohello");
+        //Debug.Log("hellohellohello");
         yield return new WaitForSeconds(delay);
     }
 }

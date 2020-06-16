@@ -15,14 +15,14 @@ public class METransition : MonoBehaviour
 
     void Start()
     {
-        inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
+        //inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
         testing = GameObject.Find("Testing");
-        choice1.GetComponent<Button>();
-        choice2.GetComponent<Button>();
+        //choice1.GetComponent<Button>();
+        //choice2.GetComponent<Button>();
     }
 
 
-    public void OnTriggerEnter2D(Collider2D other)
+   /* public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && inventory.slotsFull[4] == true)
         {
@@ -34,12 +34,12 @@ public class METransition : MonoBehaviour
            
                 
         }
-    }
+    }*/
 
     public void MEScene()
     {
         Time.timeScale = 1;
-        popupME.SetActive(false);
+        //popupME.SetActive(false);
         testing.SetActive(false);
         ME.SetActive(true);
 

@@ -11,6 +11,11 @@ public class MEAcurracy : MonoBehaviour
     public int MaxAccuracy;
     public AccuracyBar accuracyBar;
     public Sprite deadVictim;
+    private float startTime, endTime;
+
+    public GameObject ME;
+    public GameObject testing;
+    public GameObject MEButton;
     
     //public AudioSource slapSound;
 
@@ -41,6 +46,9 @@ public class MEAcurracy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //MEButton.GetComponent<Button>().interactable = false;
+        testing.SetActive(false);
+        Time.timeScale = 1;
         currentAccuracy = 13;
         MinAccuracy = 0;
         MaxAccuracy = 26;
@@ -50,6 +58,8 @@ public class MEAcurracy : MonoBehaviour
         //choice2.GetComponent<Button>();
         //dialogue.SetActive(false);
         accuracyBar.SetAccuracy(currentAccuracy);
+        startTime = 0f;
+        endTime = 0f;
         //AudioSource slapSoundEffect = GetComponent<AudioSource>();
         //slapSound = slapSoundEffect;
 
@@ -67,11 +77,22 @@ public class MEAcurracy : MonoBehaviour
 
 private void OnTriggerEnter2D(Collider2D other)
     {
+        /*if (other.name == ("VictimTavern") && Input.GetMouseButtonDown(0))
+        {
+            startTime = Time.time;
+            Debug.Log("start click");
+        }
+        if (other.name == ("VictimTavern") && Input.GetMouseButtonUp(0))
+        {
+            endTime = Time.time;
+        }*/
         if (other.name == ("VictimTavern"))
         {
             tavernPuzzle.SetActive(true);
             setUpWordPuzzle();
             Destroy(other);
+            //endTime = 0;
+            //startTime = 0;
         }
         if (other.name == ("VictimPath"))
         {
@@ -90,14 +111,24 @@ private void OnTriggerEnter2D(Collider2D other)
             murderPuzzle.SetActive(true);
             setUpWordPuzzle();
             Destroy(other);
-        }
+        }        
         if (other.name == ("CarriageExit"))
         {
             carriagePuzzle.SetActive(true);
             setUpWordPuzzle();
             Destroy(other);
+            /*MEButton.GetComponent<Image>().color = Color.white;
+            MEButton.GetComponent<Button>().interactable = true;
+            MEButton.GetComponent<Button>().enabled = true;
+            MEButton.GetComponent<Button>().onClick.AddListener(backToMain);*/
         }       
     }
+
+    /*public void backToMain()
+    {
+        testing.SetActive(true);
+        ME.SetActive(false);
+    }*/
 
     public void AddAccuracy(int accuracy)
     {
@@ -110,6 +141,7 @@ private void OnTriggerEnter2D(Collider2D other)
         Time.timeScale = 0;
         this.GetComponent<SpriteRenderer>().enabled = false;
     }
+
 
 }
 
